@@ -1,0 +1,276 @@
+{
+  "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/master/schema.json",
+  "basics": {
+    "name": "Abdullah Hilson",
+    "label": "Full-Stack Developer",
+    "summary": "Experienced full-stack developer with a strong focus on React.js and TypeScript, known for delivering robust applications under tight deadlines. Expertise includes:",
+    "email": "abdullah@hilson.net",
+    "phone": "+212700443660",
+    "url": "https://abdullah.hilson.net",
+    "location": {
+      "countryCode": "BE"
+    },
+    "profiles": [
+      {
+        "network": "Github",
+        "username": "abumalick",
+        "url": "https://github.com/abumalick/"
+      },
+      {
+        "network": "Linkedin",
+        "username": "abdullah-hilson-565a1455",
+        "url": "https://www.linkedin.com/in/abdullah-hilson-565a1455/"
+      }
+    ]
+  },
+  "work": [
+    {
+      "name": "ShopRaha",
+      "location": "Kuwait/Remote",
+      "description": "Redefining the Grocery Experience.",
+      "position": "Mobile Team Lead",
+      "url": "https://www.shopraha.com/",
+      "startDate": "2021-11-01",
+      "summary": "Raha is a pure-play automated grocery platform, offering a full range of groceries, fresh produce, and household essentials.",
+      "highlights": [
+        "Implemented SCRUM framework",
+        "Conducted code reviews and assisted blocked engineers",
+        "Made critical React Native app architecture decisions",
+        "Managed complexity and promoted efficiency",
+        "Implemented an automatic deployment pipeline using GitHub Actions and EAS",
+        "Developed an automated reporting system that compiles a list of tickets included in each release.",
+        "Provided valuable insights for infrastructure and backend decisions",
+        "Generate the e-commerce website from a common codebase using React native web"
+      ],
+      "keywords": [
+        "React",
+        "React Native",
+        "JavaScript",
+        "TypeScript",
+        "GraphQL",
+        "REST",
+        "Expo",
+        "Ionic",
+        "Next.js"
+      ]
+    },
+    {
+      "name": "Andela",
+      "location": "US/Remote",
+      "description": "Building the tech team of the future",
+      "position": "Senior Software Engineer",
+      "url": "https://www.andela.com/",
+      "startDate": "2020-11-01",
+      "endDate": "2021-11-01",
+      "summary": "Andela is a global talent network that connects companies with vetted, remote engineers.",
+      "highlights": [
+        "Developed dashboards using React, TypeScript, and GraphQL. Wrote unit tests and integration tests with testing library",
+        "Created APIs using Python, AWS Lambda, and AWS CDK, including unit and integration tests",
+        "Analyzed requirements and provided expert solutions. Offered valuable advice to leaders and designers"
+      ],
+      "keywords": [
+        "React",
+        "JavaScript",
+        "TypeScript",
+        "Material UI",
+        "Python",
+        "REST",
+        "GraphQL",
+        "AWS Lambda",
+        "AWS CDK"
+      ]
+    },
+    {
+      "name": "Kenz'up",
+      "location": "Morocco/Remote",
+      "description": "Your multi-brand application for loyalty and payments",
+      "position": "Senior Mobile Engineer",
+      "url": "https://kenzup.com/",
+      "startDate": "2020-08-01",
+      "endDate": "2021-06-01",
+      "summary": "Kenz'up is a multi-brand loyalty application that allows you to earn points on all your purchases and benefit from exclusive offers.",
+      "highlights": [
+        "Led the React Native app to production, resolving bugs in both the mobile app and the Django backend using analytics and logging tools",
+        "Integrated complex features and new designs in the mobile app",
+        "Mentored and advised junior developers",
+        "Developed an internal tool with Express.js"
+      ],
+      "keywords": [
+        "React",
+        "React Native",
+        "JavaScript",
+        "REST",
+        "Django",
+        "Python",
+        "Express.js"
+      ]
+    },
+    {
+      "name": "Obytes",
+      "location": "Emirates/Remote",
+      "description": "A team of passionate developers, designers, and product managers creating responsive web and mobile applications for startups and agencies.",
+      "position": "Full-Stack Engineer",
+      "url": "https://obytes.com/",
+      "startDate": "2019-01-01",
+      "endDate": "2020-01-01",
+      "summary": "Obytes is a team of passionate developers, designers, and product managers who collaborate with startups and agencies to build beautiful, responsive, and functional web and mobile applications for their clients.",
+      "highlights": [
+        "Focused on backend development using Python, Django framework, and GraphQL, including unit tests and integration tests",
+        "Continued work on the frontend with React.js",
+        "Implemented a subscription system with recurring payments using PayPal, TAP, and wire payments (backend/frontend)",
+        "Enhanced backend code quality through refactoring and best practices",
+        "Conducted code reviews and offered guidance to the team"
+      ],
+      "keywords": ["React", "JavaScript", "Django", "Python", "GraphQL"]
+    },
+    {
+      "name": "Obytes",
+      "location": "Emirates/Remote",
+      "description": "A team of passionate developers, designers, and product managers creating responsive web and mobile applications for startups and agencies.",
+      "position": "Frontend Engineer",
+      "url": "https://obytes.com/",
+      "startDate": "2017-03-01",
+      "endDate": "2018-12-31",
+      "summary": "Obytes is a team of passionate developers, designers, and product managers who collaborate with startups and agencies to build beautiful, responsive, and functional web and mobile applications for their clients.",
+      "highlights": [
+        "Built interfaces with React.js, Redux, and Apollo Client",
+        "Optimized app performance using Gatsby.js",
+        "Integrated social login and registration, video players, code editors, and logic for code challenges and quizzes",
+        "Mentored the frontend team and newcomers"
+      ],
+      "keywords": [
+        "React",
+        "JavaScript",
+        "Redux",
+        "REST",
+        "GraphQL",
+        "Gatsby.js"
+      ]
+    },
+    {
+      "name": "Devpal Solutions",
+      "location": "Remote",
+      "position": "Founder/CTO",
+      "url": "https://devpal.solutions/",
+      "startDate": "2015-05-01",
+      "summary": "Devpal Solutions is dedicated to web development and app creation, utilizing technologies such as React, GatsbyJS, Next.js, Ruby on Rails, Node.js, Django, React Native, and Ionic. Notable highlights include:",
+      "highlights": [
+        "Website development with WordPress",
+        "Frontend app development using React, GatsbyJS, and Next.js",
+        "Backend app development with Ruby on Rails, Node.js, and Django",
+        "Creation of mobile apps using React Native and Ionic"
+      ],
+      "keywords": [
+        "React",
+        "React Native",
+        "JavaScript",
+        "Ruby on Rails",
+        "Django",
+        "WordPress",
+        "Ionic",
+        "Gatsby.js",
+        "Next.js"
+      ]
+    }
+  ],
+  "volunteer": [],
+  "education": [
+    {
+      "institution": "ICC Brussels",
+      "url": "https://www.iccbxl.be/web/",
+      "area": "Computer Science and Accounting",
+      "studyType": "Bachelor",
+      "startDate": "2006-09-01",
+      "endDate": "2011-06-29"
+    },
+    {
+      "institution": "Collège St-Joseph of Chimay",
+      "area": "Mathematics and Sciences",
+      "studyType": "Certificate of Higher Secondary Education",
+      "startDate": "1997-09-01",
+      "endDate": "2003-06-29"
+    }
+  ],
+  "awards": [],
+  "publications": [],
+  "skills": [
+    {
+      "name": "Frontend Development",
+      "level": "Lead",
+      "keywords": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "TypeScript",
+        "React",
+        "Redux",
+        "Gatsby.js",
+        "Next.js",
+        "React Native",
+        "Ionic"
+      ]
+    },
+    {
+      "name": "Backend Development",
+      "level": "Senior",
+      "keywords": [
+        "Python",
+        "Django",
+        "Node.js",
+        "Express.js",
+        "Ruby on Rails",
+        "REST",
+        "GraphQL"
+      ]
+    },
+    {
+      "name": "Infrastructure",
+      "level": "Mid-level",
+      "keywords": [
+        "AWS",
+        "Lambda",
+        "CDK",
+        "GitHub Actions",
+        "EAS",
+        "Docker",
+        "Vercel"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "English",
+      "fluency": "Proficient"
+    },
+    {
+      "language": "French",
+      "fluency": "Native Speaker"
+    },
+    {
+      "language": "Arabic",
+      "fluency": "Proficient"
+    }
+  ],
+  "interests": [
+    {
+      "name": "Religion"
+    },
+    {
+      "name": "Reading"
+    },
+    {
+      "name": "Family"
+    },
+    {
+      "name": "Sports"
+    }
+  ],
+  "references": [],
+  "projects": [],
+
+  "meta": {
+    "canonical": "https://raw.githubusercontent.com/jsonresume/resume-schema/master/resume.json",
+    "version": "v1.0.0",
+    "lastModified": "2017-12-24T15:53:00"
+  }
+}

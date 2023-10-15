@@ -23,7 +23,7 @@ const socialCount = SOCIALS.filter(social => social.active).length;
   <Header />
   <main id="main-content">
     <section id="hero">
-      <h1 class="mr-2">Mingalaba</h1>
+      <h1 class="mr-2">Abdullah Hilson</h1>
       <a
         target="_blank"
         href="/rss.xml"
@@ -41,22 +41,34 @@ const socialCount = SOCIALS.filter(social => social.active).length;
       </a>
 
       <p>
-        AstroPaper is a minimal, responsive, accessible and SEO-friendly Astro
-        blog theme. This theme follows best practices and provides accessibility
-        out of the box. Light and dark mode are supported by default. Moreover,
-        additional color schemes can also be configured.
+        Abdullah Hilson is an experienced full-stack developer specializing in
+        <b>React.js</b> and <b>TypeScript</b>, with a deep passion for all
+        facets of development. He excels in delivering robust applications even
+        under challenging deadlines. His expertise spans:
       </p>
+      <ul class="list-disc pl-4">
+        <li>
+          Crafting responsive frontend applications with technologies such as
+          React, Next.js, Material UI, and Antd.
+        </li>
+        <li>
+          Building resilient backends utilizing Node.js, Ruby on Rails, Django,
+          GraphQL, and PostgreSQL.
+        </li>
+        <li>Developing versatile mobile applications using React Native.</li>
+      </ul>
       <p>
-        Read the blog posts or check
+        Abdullah has a proven track record of quickly adapting to and mastering
+        new technologies. For a comprehensive overview of his skills and
+        accomplishments, please refer to{" "}
         <LinkButton
-          className="hover:text-skin-accent underline underline-offset-4 decoration-dashed"
-          href="https://github.com/satnaing/astro-paper#readme"
+          className="underline decoration-dashed underline-offset-4 hover:text-skin-accent"
+          href="/resume"
         >
-          README
-        </LinkButton> for more info.
+          his detailed resume
+        </LinkButton>.
       </p>
       {
-        // only display if at least one social link is enabled
         socialCount > 0 && (
           <div class="social-wrapper">
             <div class="social-links">Social Links:</div>

@@ -1,0 +1,180 @@
+---
+import Layout from "@layouts/AboutLayout.astro";
+import * as resumeData from "../../resume.json";
+import format from "date-fns/format";
+import differenceInMonths from "date-fns/differenceInMonths";
+
+const displayMonthAndYear = (date: string) => {
+  const d = new Date(date);
+  return format(d, "MMM yyyy");
+};
+
+const displayYear = (date: string) => {
+  const d = new Date(date);
+  return format(d, "yyyy");
+};
+
+const displayDuration = (startDate: string, endDate: string) => {
+  const start = new Date(startDate);
+  const end = new Date(endDate);
+  const months = differenceInMonths(end, start);
+  const years = Math.floor(months / 12);
+  const remainingMonths = months % 12;
+  // return `${years} yrs, ${remainingMonths} months`;
+  // pluralize only when necessary
+  let result = "";
+  if (years > 0) {
+    result += `${years} ${years === 1 ? "yr" : "yrs"}`;
+  }
+  if (remainingMonths > 0) {
+    result += `${years > 0 ? ", " : ""}${remainingMonths} ${
+      remainingMonths === 1 ? "month" : "months"
+    }`;
+  }
+  return result;
+};
+---
+
+<Layout title="Abdullah's Resume">
+  <section class="mb-8">
+    <p>
+      Abdullah Hilson is an experienced full-stack developer from Belgium
+      specializing in React.js and TypeScript, with a deep passion for all
+      facets of development. He excels in delivering robust applications even
+      under challenging deadlines. His expertise spans:
+    </p>
+
+    <ul>
+      <li>
+        Crafting responsive frontend applications with technologies such as
+        React, Next.js, Material UI, and Antd.
+      </li>
+      <li>
+        Building resilient backends utilizing Node.js, Ruby on Rails, Django,
+        GraphQL, and PostgreSQL.
+      </li>
+      <li>Developing versatile mobile applications using React Native.</li>
+    </ul>
+
+    <div class="sm:flex sm:flex-row">
+      <img
+        src="/assets/dev.svg"
+        class="w-3/4 sm:mr-4 sm:w-1/3"
+        alt="coding dev illustration"
+      />
+      <p>
+        Abdullah has a proven track record of quickly adapting to and mastering
+        new technologies. For a comprehensive overview of his skills and
+        accomplishments, please refer to the details about each experience
+        below.
+      </p>
+    </div>
+  </section>
+
+  {/* Work Experience */}
+  <section class="mb-8">
+    <h2 class="text-2xl font-semibold">Work Experience</h2>
+    {
+      resumeData.work.map(job => (
+        <div class="mt-6">
+          <div class="mb-3 sm:flex sm:flex-row sm:items-baseline sm:justify-between">
+            <h3 class="not-prose text-xl font-semibold text-skin-accent">
+              {job.position}
+            </h3>
+            <p class="not-prose mt-3 font-light text-skin-base sm:mt-0 sm:text-sm">
+              {displayMonthAndYear(job.startDate)} -{" "}
+              {job.endDate ? displayMonthAndYear(job.endDate) : "Present"} -{" "}
+              {displayDuration(
+                job.startDate,
+                job.endDate || new Date().toISOString()
+              )}
+            </p>
+          </div>
+          <div class="flex flex-row items-baseline gap-1">
+            <p class="mt-0 font-light">
+              <a
+                href={job.url}
+                target="_blank"
+                rel="noopener noreferrer"
+                class="not-prose"
+              >
+                {job.name}
+              </a>
+            </p>
+            <p class="mt-0 text-sm font-light">({job.location})</p>
+          </div>
+
+          <p class="mt-0">{job.summary}</p>
+
+          <h4>Accomplishments</h4>
+          <ul class="ml-4 mt-2 list-disc">
+            {job.highlights.map(highlight => (
+              <li>{highlight}</li>
+            ))}
+          </ul>
+
+          {!!job.keywords?.length && (
+            <>
+              <h4>Technologies</h4>
+              <p>{job.keywords.join(", ")}</p>
+            </>
+          )}
+        </div>
+      ))
+    }
+  </section>
+
+  {/* Education */}
+  <section class="mb-8">
+    <h2 class="text-2xl font-semibold">Education</h2>
+    {
+      resumeData.education.map(education => (
+        <div class="mb-4">
+          <h3 class="inline text-xl font-semibold">{education.institution}</h3>
+          <p class="ml-1 inline">
+            ({displayYear(education.startDate)} -{" "}
+            {education.endDate ? displayYear(education.endDate) : "Present"})
+          </p>
+          <p class="font-thin">
+            {education.studyType} in {education.area}
+          </p>
+        </div>
+      ))
+    }
+  </section>
+
+  {/* Skills */}
+  <section class="mb-8">
+    <h2 class="text-2xl font-semibold">Skills</h2>
+    {
+      resumeData.skills.map(skill => (
+        <div class="mb-4">
+          <h3 class="inline text-xl font-semibold">{skill.name}</h3>
+          <p class="ml-1  inline text-lg">({skill.level})</p>
+          <p class="mt-2 font-thin">{skill.keywords.join(", ")}</p>
+        </div>
+      ))
+    }
+  </section>
+
+  {/* Languages */}
+  <section class="mb-8">
+    <h2 class="text-2xl font-semibold">Languages</h2>
+    {
+      resumeData.languages.map(language => (
+        <ul class="mb-4">
+          <li>
+            <span class="font-semibold">{language.language}</span>{" "}
+            <span class="no-prose font-sm font-thin">({language.fluency})</span>
+          </li>
+        </ul>
+      ))
+    }
+  </section>
+
+  {/* Interests */}
+  <section>
+    <h2 class="text-2xl font-semibold">Interests</h2>
+    <p class="">{resumeData.interests.map(({ name }) => name).join(", ")}</p>
+  </section>
+</Layout>

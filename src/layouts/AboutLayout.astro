@@ -6,21 +6,18 @@ import Header from "@components/Header.astro";
 import Layout from "./Layout.astro";
 
 export interface Props {
-  frontmatter: {
-    title: string;
-    description?: string;
-  };
+  title: string;
 }
 
-const { frontmatter } = Astro.props;
+const { title } = Astro.props;
 ---
 
-<Layout title={`${frontmatter.title} | ${SITE.title}`}>
-  <Header activeNav="about" />
+<Layout title={`${title} | ${SITE.title}`}>
+  <Header activeNav="resume" />
   <Breadcrumbs />
   <main id="main-content">
-    <section id="about" class="prose mb-28 max-w-3xl prose-img:border-0">
-      <h1 class="text-2xl tracking-wider sm:text-3xl">{frontmatter.title}</h1>
+    <section id="resume" class="prose mb-28 max-w-3xl prose-img:border-0">
+      <h1 class="text-2xl tracking-wider sm:text-3xl">{title}</h1>
       <slot />
     </section>
   </main>
