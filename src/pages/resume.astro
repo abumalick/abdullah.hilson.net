@@ -1,8 +1,8 @@
 ---
 import Layout from "@layouts/AboutLayout.astro";
 import * as resumeData from "../../resume.json";
-import format from "date-fns/format";
-import differenceInMonths from "date-fns/differenceInMonths";
+import format from "date-fns/format/index.js";
+import differenceInMonths from "date-fns/differenceInMonths/index.js";
 
 const displayMonthAndYear = (date: string) => {
   const d = new Date(date);
