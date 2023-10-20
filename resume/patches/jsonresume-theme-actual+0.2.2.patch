@@ -1,0 +1,108 @@
+diff --git a/node_modules/jsonresume-theme-actual/assets/helper.js b/node_modules/jsonresume-theme-actual/assets/helper.js
+index 0157b76..5217c91 100644
+--- a/node_modules/jsonresume-theme-actual/assets/helper.js
++++ b/node_modules/jsonresume-theme-actual/assets/helper.js
+@@ -1,7 +1,7 @@
+ const md = require('markdown-it')()
+ const iso = require('iso-3166-1')
+ const moment = require('moment')
+-
++const differenceInMonths = require("date-fns/differenceInMonths")
+ const mdToHtml = (string) => string ? md.render(string) : ''
+ 
+ const calcLocation = (location) => {
+@@ -46,10 +46,36 @@ const calcDateRange = (start, end) => {
+   } else {
+     return null
+   }
++  const duration = displayDuration(
++    startDate,
++    endDate || new Date().toISOString()
++  )
++  array.push(duration)
+ 
+   return array.join(' - ')
+ }
+ 
++const displayDuration = (startDate, endDate) => {
++  const start = new Date(startDate);
++  const end = new Date(endDate);
++  const months = differenceInMonths(end, start);
++  const years = Math.floor(months / 12);
++  const remainingMonths = months % 12;
++  // return `${years} yrs, ${remainingMonths} months`;
++  // pluralize only when necessary
++  let result = "";
++  if (years > 0) {
++    result += `${years} ${years === 1 ? "yr" : "yrs"}`;
++  }
++  if (remainingMonths > 0) {
++    result += `${years > 0 ? ", " : ""}${remainingMonths} ${
++      remainingMonths === 1 ? "mo" : "mos"
++    }`;
++  }
++  return result;
++};
++
++
+ const beautifyDate = (date) => moment(date, 'YYYY-MM-DD').format('MMM YYYY')
+ 
+ const beautifyArray = (separator, array) => array.filter(x => x).join(separator)
+diff --git a/node_modules/jsonresume-theme-actual/assets/pug/education.pug b/node_modules/jsonresume-theme-actual/assets/pug/education.pug
+index 0766ce5..867ec94 100644
+--- a/node_modules/jsonresume-theme-actual/assets/pug/education.pug
++++ b/node_modules/jsonresume-theme-actual/assets/pug/education.pug
+@@ -4,6 +4,4 @@ if helper.validArray(resume.education)
+     div(class='container')
+       each edu in resume.education
+         div(class='article margin-container-2 no-break')
+-          div(class='title markdown')!=helper.mdToHtml(helper.beautifyArray(', ', [edu.studyType, edu.area]))
+-          span(class='institution margin-text-2')
+-            a(href=edu.url)=edu.institution
++          div(class='title markdown margin-text-2')!=helper.mdToHtml(edu.studyType + ": " + edu.area + " (" + edu.institution + ")")
+diff --git a/node_modules/jsonresume-theme-actual/assets/styles.css b/node_modules/jsonresume-theme-actual/assets/styles.css
+index b75e4f1..6695a35 100644
+--- a/node_modules/jsonresume-theme-actual/assets/styles.css
++++ b/node_modules/jsonresume-theme-actual/assets/styles.css
+@@ -72,7 +72,7 @@ li:first-child {
+   display: table-cell;
+   width: 30%;
+   padding-left: 50px;
+-  text-align: right;
++  text-align: left;
+ }
+ 
+ .summary {
+@@ -220,9 +220,6 @@ li:first-child {
+   display: block;
+   padding: 0 10px;
+   margin-bottom: 0;
+-  columns: 2;
+-  column-width: 310px;
+-  column-gap: 10px;
+ }
+ .main .highlights li {
+   font-size: 14px;
+@@ -324,8 +321,6 @@ li:first-child {
+ }
+ .skills .container {
+   display: block;
+-  columns: 2;
+-  column-gap: 10px;
+ }
+ .skills .container .article {
+   break-inside: avoid-column;
+diff --git a/node_modules/jsonresume-theme-actual/assets/template.pug b/node_modules/jsonresume-theme-actual/assets/template.pug
+index 50433ff..49e0013 100644
+--- a/node_modules/jsonresume-theme-actual/assets/template.pug
++++ b/node_modules/jsonresume-theme-actual/assets/template.pug
+@@ -15,8 +15,8 @@ html(lang="en")
+           include pug/publications
+           include pug/volunteer
+         div(class='side')
+-          include pug/skills
+           include pug/education
++          include pug/skills
+           include pug/certificates
+           include pug/awards
+           include pug/references

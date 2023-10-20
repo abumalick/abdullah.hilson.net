@@ -4,10 +4,13 @@
   "type": "module",
   "private": true,
   "scripts": {
-    "build": "resume export ../public/resume.pdf --format pdf --theme actual"
+    "build": "resume export ../public/resume.pdf --format pdf --theme actual",
+    "postinstall": "patch-package"
   },
   "dependencies": {
+    "date-fns": "^2.30.0",
     "jsonresume-theme-actual": "^0.2.2",
+    "patch-package": "^8.0.0",
     "resume-cli": "^3.0.8"
   },
   "devDependencies": {
