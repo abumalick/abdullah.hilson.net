@@ -6,6 +6,7 @@
     "dev": "astro dev",
     "start": "astro dev",
     "build": "astro build && jampack ./dist",
+    "build:resume": "cd resume; bun install; bun run build",
     "preview": "astro preview",
     "sync": "astro sync",
     "astro": "astro",

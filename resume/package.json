@@ -1,0 +1,22 @@
+{
+  "name": "my-resume",
+  "module": "resume.json",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "build": "resume export ../public/resume.pdf --format pdf --theme actual"
+  },
+  "dependencies": {
+    "jsonresume-theme-actual": "^0.2.2",
+    "resume-cli": "^3.0.8"
+  },
+  "devDependencies": {
+    "bun-types": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "trustedDependencies": [
+    "puppeteer"
+  ]
+}
