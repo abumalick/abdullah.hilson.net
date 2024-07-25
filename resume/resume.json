@@ -3,7 +3,7 @@
   "basics": {
     "name": "Abdullah Hilson",
     "label": "Full-Stack Developer",
-    "summary": "Experienced full-stack developer with a strong focus on React.js and TypeScript, known for delivering robust applications under tight deadlines. Expertise includes:",
+    "summary": "Abdullah Hilson is an experienced full-stack developer from Belgium specializing in React.js and TypeScript, with a deep passion for all facets of development. He excels in delivering robust applications even under challenging deadlines. His expertise spans:\n- Crafting responsive frontend applications with technologies such as React, Next.js, Material UI, and Antd.\n- Building resilient backends utilizing Node.js, Ruby on Rails, Django, GraphQL, and PostgreSQL.\n- Developing versatile mobile applications using React Native.",
     "email": "abdullah@hilson.net",
     "phone": "+212700443660",
     "url": "https://abdullah.hilson.net",
@@ -177,18 +177,10 @@
   "education": [
     {
       "institution": "ICC Brussels",
-      "url": "https://www.iccbxl.be/web/",
       "area": "Computer Science and Accounting",
       "studyType": "Bachelor",
       "startDate": "2006-09-01",
       "endDate": "2011-06-29"
-    },
-    {
-      "institution": "Collège St-Joseph of Chimay",
-      "area": "Mathematics and Sciences",
-      "studyType": "Certificate of Higher Secondary Education",
-      "startDate": "1997-09-01",
-      "endDate": "2003-06-29"
     }
   ],
   "awards": [],
