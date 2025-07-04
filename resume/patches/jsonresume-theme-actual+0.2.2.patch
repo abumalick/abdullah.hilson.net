@@ -1,5 +1,5 @@
 diff --git a/node_modules/jsonresume-theme-actual/assets/helper.js b/node_modules/jsonresume-theme-actual/assets/helper.js
-index 0157b76..5217c91 100644
+index 0157b76..edad48b 100644
 --- a/node_modules/jsonresume-theme-actual/assets/helper.js
 +++ b/node_modules/jsonresume-theme-actual/assets/helper.js
 @@ -1,7 +1,7 @@
@@ -48,20 +48,65 @@ index 0157b76..5217c91 100644
  const beautifyDate = (date) => moment(date, 'YYYY-MM-DD').format('MMM YYYY')
  
  const beautifyArray = (separator, array) => array.filter(x => x).join(separator)
+@@ -79,6 +105,19 @@ const beautifyLink = (string) => {
+ 
+ const validArray = (array) => array !== undefined && array.length > 0
+ 
++const getIcon = (network) => {
++  switch (network.toLowerCase()) {
++    case 'github':
++      return '💻';
++    case 'linkedin':
++      return '💼';
++    default:
++      return '🌐';
++  }
++}
++
++const beautifyProfileLink = (url) => beautifyLink(url)
++
+ module.exports = {
+   mdToHtml,
+   calcLocation,
+@@ -88,5 +127,7 @@ module.exports = {
+   beautifyArray,
+   arrayToPhrase,
+   beautifyLink,
++  beautifyProfileLink,
++  getIcon,
+   validArray
+ }
 diff --git a/node_modules/jsonresume-theme-actual/assets/pug/education.pug b/node_modules/jsonresume-theme-actual/assets/pug/education.pug
-index 0766ce5..867ec94 100644
+index 0766ce5..9f84c5a 100644
 --- a/node_modules/jsonresume-theme-actual/assets/pug/education.pug
 +++ b/node_modules/jsonresume-theme-actual/assets/pug/education.pug
-@@ -4,6 +4,4 @@ if helper.validArray(resume.education)
+@@ -4,6 +4,5 @@ if helper.validArray(resume.education)
      div(class='container')
        each edu in resume.education
          div(class='article margin-container-2 no-break')
 -          div(class='title markdown')!=helper.mdToHtml(helper.beautifyArray(', ', [edu.studyType, edu.area]))
 -          span(class='institution margin-text-2')
 -            a(href=edu.url)=edu.institution
-+          div(class='title markdown margin-text-2')!=helper.mdToHtml(edu.studyType + ": " + edu.area + " (" + edu.institution + ")")
++          div(class='title markdown')!=helper.mdToHtml('**' + edu.studyType + "'s Degree in " + edu.area + '**')
++          div(class='institution margin-text-2')=edu.institution
+diff --git a/node_modules/jsonresume-theme-actual/assets/pug/links.pug b/node_modules/jsonresume-theme-actual/assets/pug/links.pug
+index dc09c9e..400404c 100644
+--- a/node_modules/jsonresume-theme-actual/assets/pug/links.pug
++++ b/node_modules/jsonresume-theme-actual/assets/pug/links.pug
+@@ -5,7 +5,9 @@ if helper.validArray(resume.basics.profiles) || resume.basics.url
+       ul
+         if resume.basics.url
+           li(class='article')
+-            a(href=resume.basics.url)!=helper.beautifyLink(resume.basics.url)
++            span!=helper.getIcon('Website') + ' Personal Website: '
++            a(href=resume.basics.url)!=helper.beautifyProfileLink(resume.basics.url)
+         each profile in resume.basics.profiles
+           li(class='article margin-text-4')
+-            a(href=profile.url)!=helper.beautifyLink(profile.url)
++            span!=helper.getIcon(profile.network) + ' ' + profile.network + ': '
++            a(href=profile.url)!=helper.beautifyProfileLink(profile.url)
 diff --git a/node_modules/jsonresume-theme-actual/assets/styles.css b/node_modules/jsonresume-theme-actual/assets/styles.css
-index b75e4f1..6695a35 100644
+index b75e4f1..6dd41b4 100644
 --- a/node_modules/jsonresume-theme-actual/assets/styles.css
 +++ b/node_modules/jsonresume-theme-actual/assets/styles.css
 @@ -72,7 +72,7 @@ li:first-child {
@@ -73,7 +118,16 @@ index b75e4f1..6695a35 100644
  }
  
  .summary {
-@@ -220,9 +220,6 @@ li:first-child {
+@@ -89,7 +89,7 @@ li:first-child {
+ }
+ 
+ .margin-container-2:not(:first-child) {
+-  margin-top: 20px;
++  margin-top: 30px;
+ }
+ 
+ .margin-container-3:not(:first-child) {
+@@ -220,24 +220,24 @@ li:first-child {
    display: block;
    padding: 0 10px;
    margin-bottom: 0;
@@ -83,7 +137,46 @@ index b75e4f1..6695a35 100644
  }
  .main .highlights li {
    font-size: 14px;
-@@ -324,8 +321,6 @@ li:first-child {
+   list-style: none;
++  padding-left: 1.2em;
++  text-indent: -1.2em;
+ }
+ .main .highlights li:before {
+   content: "· ";
+   vertical-align: middle;
++  padding-right: 0.5em;
+ }
+ .main .left {
+   display: table-cell;
+ }
+ .main .left .title {
+   font-size: 18px;
+-  font-weight: bold;
++  font-weight: 600;
+   display: block;
+ }
+ .main .left .subtitle {
+@@ -252,6 +252,8 @@ li:first-child {
+ .main .right .date {
+   font-size: 15px;
+   font-weight: lighter;
++  font-style: italic;
++  color: #333;
+   white-space: nowrap;
+ }
+ 
+@@ -291,6 +293,10 @@ li:first-child {
+ .links ul li {
+   font-size: 14px;
+ }
++.links ul li span,
++.links ul li a {
++  display: block;
++}
+ 
+ .education .title {
+   font-size: 15px;
+@@ -324,13 +330,12 @@ li:first-child {
  }
  .skills .container {
    display: block;
@@ -92,6 +185,13 @@ index b75e4f1..6695a35 100644
  }
  .skills .container .article {
    break-inside: avoid-column;
+   min-width: 120px;
+-  padding-top: 20px;
++  padding-top: 15px;
++  padding-bottom: 5px;
+ }
+ .skills .container .article span {
+   display: block;
 diff --git a/node_modules/jsonresume-theme-actual/assets/template.pug b/node_modules/jsonresume-theme-actual/assets/template.pug
 index 50433ff..49e0013 100644
 --- a/node_modules/jsonresume-theme-actual/assets/template.pug

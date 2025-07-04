@@ -3,9 +3,9 @@
   "basics": {
     "name": "Abdullah Hilson",
     "label": "Full-Stack Developer",
-    "summary": "Abdullah Hilson is an experienced full-stack developer from Belgium specializing in React.js and TypeScript, with a deep passion for all facets of development. He excels in delivering robust applications even under challenging deadlines. His expertise spans:\n- Crafting responsive frontend applications with technologies such as React, Next.js, Material UI, and Antd.\n- Building resilient backends utilizing Node.js, Ruby on Rails, Django, GraphQL, and PostgreSQL.\n- Developing versatile mobile applications using React Native.",
+    "summary": "Experienced Full-Stack Developer with 10+ years in web and mobile development, specializing in React, TypeScript, and backend frameworks like Node.js and Django. Proven ability to lead teams, ship scalable SaaS products, and improve engineering workflows under tight deadlines.",
     "email": "abdullah@hilson.net",
-    "phone": "+212700443660",
+    "phone": "+32 497 90 37 95",
     "url": "https://abdullah.hilson.net",
     "location": {
       "countryCode": "BE"
@@ -19,39 +19,39 @@
       {
         "network": "Linkedin",
         "username": "abdullah-hilson-565a1455",
-        "url": "https://www.linkedin.com/in/abdullah-hilson-565a1455/"
+        "url": "https://www.linkedin.com/in/abdullah-hilson/"
       }
     ]
   },
   "work": [
     {
-      "name": "ShopRaha",
+      "name": "btr.tech",
       "location": "Kuwait/Remote",
       "description": "Redefining the Grocery Experience.",
-      "position": "Mobile Team Lead",
-      "url": "https://www.shopraha.com/",
+      "position": "Frontend Team Lead",
+      "url": "https://www.btr.tech/",
       "startDate": "2021-11-01",
-      "summary": "Raha is a pure-play automated grocery platform, offering a full range of groceries, fresh produce, and household essentials.",
+      "summary": "Led the frontend and mobile development for three core SAAS products in logistics and e-commerce: 'Shopraha' (automated grocery), 'Rover' (delivery fleet management), and 'Halo' (warehouse management). Drove the architectural vision for mobile applications and co-led the successful implementation of a Turborepo monorepo to unify development across all dashboards.",
       "highlights": [
-        "Implemented SCRUM framework",
-        "Conducted code reviews and assisted blocked engineers",
-        "Made critical React Native app architecture decisions",
-        "Managed complexity and promoted efficiency",
-        "Implemented an automatic deployment pipeline using GitHub Actions and EAS",
-        "Developed an automated reporting system that compiles a list of tickets included in each release.",
-        "Provided valuable insights for infrastructure and backend decisions",
-        "Generate the e-commerce website from a common codebase using React native web"
+        "Co-led the architecture and implementation of a Turborepo monorepo, creating a unified library of reusable components based on Ant Design that served multiple product dashboards.",
+        "Led the full lifecycle development of two complex mobile applications for logistics and warehouse management using Capacitor and Tailwind CSS.",
+        "Established and enforced a robust testing culture, implementing full E2E test suites with Playwright and comprehensive integration tests for critical mobile applications.",
+        "Spearheaded development of 'Rover', a complete fleet management solution, delivering the driver's mobile app and contributing significantly to the admin dashboard.",
+        "Actively partnered with the product manager to streamline features to enhance maintainability, and prioritize high-impact work to accelerate delivery.",
+        "Mentored a team of 5 developers, conducted rigorous code reviews, and implemented SCRUM methodologies to boost team performance and product quality.",
+        "Led a team of 4 in developing a React Native e-commerce app, setting the foundational architecture and deployment pipelines."
       ],
       "keywords": [
         "React",
         "React Native",
-        "JavaScript",
         "TypeScript",
         "GraphQL",
-        "REST",
         "Expo",
         "Ionic",
-        "Next.js"
+        "Capacitor",
+        "Next.js",
+        "Tailwind CSS",
+        "Antd"
       ]
     },
     {
@@ -62,19 +62,17 @@
       "url": "https://www.andela.com/",
       "startDate": "2020-11-01",
       "endDate": "2021-11-01",
-      "summary": "Andela is a global talent network that connects companies with vetted, remote engineers.",
+      "summary": "Contributed as a senior engineer within a global talent network, developing robust dashboards with React and TypeScript, and building serverless APIs using Python and AWS CDK. Focused on delivering high-quality, tested code for various client projects.",
       "highlights": [
         "Developed dashboards using React, TypeScript, and GraphQL. Wrote unit tests and integration tests with testing library",
-        "Created APIs using Python, AWS Lambda, and AWS CDK, including unit and integration tests",
-        "Analyzed requirements and provided expert solutions. Offered valuable advice to leaders and designers"
+        "Designed and built serverless APIs using Python, AWS Lambda, and CDK with full test coverage",
+        "Analyzed requirements and provided expert solutions; offered valuable advice to leaders and designers."
       ],
       "keywords": [
         "React",
-        "JavaScript",
         "TypeScript",
         "Material UI",
         "Python",
-        "REST",
         "GraphQL",
         "AWS Lambda",
         "AWS CDK"
@@ -88,22 +86,14 @@
       "url": "https://kenzup.com/",
       "startDate": "2020-08-01",
       "endDate": "2021-06-01",
-      "summary": "Kenz'up is a multi-brand loyalty application that allows you to earn points on all your purchases and benefit from exclusive offers.",
+      "summary": "As a key mobile engineer, I led a React Native application to its production launch. My role involved resolving critical bugs across the full stack (mobile and Django backend), integrating new features and designs, and mentoring junior developers to enhance team capabilities.",
       "highlights": [
-        "Led the React Native app to production, resolving bugs in both the mobile app and the Django backend using analytics and logging tools",
-        "Integrated complex features and new designs in the mobile app",
-        "Mentored and advised junior developers",
+        "Led the React Native app to a successful production launch, achieving high user adoption and resolving critical bugs across the full stack.",
+        "Integrated complex features and new designs in the mobile app.",
+        "Mentored and advised 2 junior developers, enhancing team capabilities.",
         "Developed an internal tool with Express.js"
       ],
-      "keywords": [
-        "React",
-        "React Native",
-        "JavaScript",
-        "REST",
-        "Django",
-        "Python",
-        "Express.js"
-      ]
+      "keywords": ["React", "React Native", "Django", "Python", "Express.js"]
     },
     {
       "name": "Obytes",
@@ -113,15 +103,15 @@
       "url": "https://obytes.com/",
       "startDate": "2019-01-01",
       "endDate": "2020-01-01",
-      "summary": "Obytes is a team of passionate developers, designers, and product managers who collaborate with startups and agencies to build beautiful, responsive, and functional web and mobile applications for their clients.",
+      "summary": "Transitioned to a full-stack role, taking ownership of backend development with Python and Django while continuing frontend work. Key contributions include implementing a full-featured subscription and payment system and improving overall backend code quality through refactoring and best practices.",
       "highlights": [
         "Focused on backend development using Python, Django framework, and GraphQL, including unit tests and integration tests",
         "Continued work on the frontend with React.js",
         "Implemented a subscription system with recurring payments using PayPal, TAP, and wire payments (backend/frontend)",
         "Enhanced backend code quality through refactoring and best practices",
-        "Conducted code reviews and offered guidance to the team"
+        "Conducted code reviews and offered guidance to a team of 9 developers."
       ],
-      "keywords": ["React", "JavaScript", "Django", "Python", "GraphQL"]
+      "keywords": ["React", "Django", "Python", "GraphQL"]
     },
     {
       "name": "Obytes",
@@ -131,29 +121,21 @@
       "url": "https://obytes.com/",
       "startDate": "2017-03-01",
       "endDate": "2018-12-31",
-      "summary": "Obytes is a team of passionate developers, designers, and product managers who collaborate with startups and agencies to build beautiful, responsive, and functional web and mobile applications for their clients.",
+      "summary": "As a frontend specialist, I built and optimized responsive user interfaces using React, Redux, and Gatsby.js. My work involved integrating complex features like social logins and video players, significantly improving application performance and user engagement.",
       "highlights": [
         "Built interfaces with React.js, Redux, and Apollo Client",
         "Optimized app performance using Gatsby.js",
         "Integrated social login and registration, video players, code editors, and logic for code challenges and quizzes",
-        "Mentored the frontend team and newcomers"
+        "Mentored 3 frontend team members and newcomers."
       ],
-      "keywords": [
-        "React",
-        "JavaScript",
-        "Redux",
-        "REST",
-        "GraphQL",
-        "Gatsby.js"
-      ]
+      "keywords": ["React", "Redux", "GraphQL", "Gatsby.js"]
     },
     {
       "name": "Devpal Solutions",
       "location": "Remote",
       "position": "Founder/CTO",
-      "url": "https://devpal.solutions/",
       "startDate": "2015-05-01",
-      "summary": "Devpal Solutions is dedicated to web development and app creation, utilizing technologies such as React, GatsbyJS, Next.js, Ruby on Rails, Node.js, Django, React Native, and Ionic. Notable highlights include:",
+      "summary": "Founded a web and mobile development consultancy. As CTO, I led the technical strategy for various client projects on a part-time basis, delivering solutions using React, backend frameworks (Rails, Node.js, Django), and mobile stacks like React Native.",
       "highlights": [
         "Website development with WordPress",
         "Frontend app development using React, GatsbyJS, and Next.js",
@@ -163,10 +145,8 @@
       "keywords": [
         "React",
         "React Native",
-        "JavaScript",
         "Ruby on Rails",
         "Django",
-        "WordPress",
         "Ionic",
         "Gatsby.js",
         "Next.js"
@@ -187,46 +167,36 @@
   "publications": [],
   "skills": [
     {
-      "name": "Frontend Development",
-      "level": "Lead",
+      "name": "Frontend",
       "keywords": [
-        "HTML",
-        "CSS",
-        "JavaScript",
-        "TypeScript",
         "React",
-        "Redux",
-        "Gatsby.js",
         "Next.js",
-        "React Native",
-        "Ionic"
+        "Gatsby.js",
+        "Redux",
+        "TypeScript",
+        "Tailwind CSS",
+        "Material UI",
+        "Antd"
       ]
     },
     {
-      "name": "Backend Development",
-      "level": "Senior",
+      "name": "Backend",
       "keywords": [
-        "Python",
-        "Django",
         "Node.js",
-        "Express.js",
+        "Django",
         "Ruby on Rails",
-        "REST",
-        "GraphQL"
+        "Express.js",
+        "GraphQL",
+        "REST"
       ]
     },
     {
-      "name": "Infrastructure",
-      "level": "Mid-level",
-      "keywords": [
-        "AWS",
-        "Lambda",
-        "CDK",
-        "GitHub Actions",
-        "EAS",
-        "Docker",
-        "Vercel"
-      ]
+      "name": "Mobile",
+      "keywords": ["React Native", "Ionic", "Capacitor", "Expo", "EAS"]
+    },
+    {
+      "name": "Infra/DevOps",
+      "keywords": ["AWS", "AWS CDK", "Docker", "GitHub Actions", "Vercel"]
     }
   ],
   "languages": [
@@ -263,6 +233,6 @@
   "meta": {
     "canonical": "https://raw.githubusercontent.com/jsonresume/resume-schema/master/resume.json",
     "version": "v1.0.0",
-    "lastModified": "2017-12-24T15:53:00"
+    "lastModified": "2025-07-04T19:55:00"
   }
 }
