@@ -33,11 +33,11 @@ I hope this list gives you some new ideas for your own workflow.
 ## Productivity & Utilities
 
 - [1Password](https://1password.com/) - A password manager for securely storing and sharing passwords.
-- [To Do](https://todo.microsoft.com/tasks/) - A task management app for organizing and tracking tasks.
+- [To Do](https://to-do.office.com/tasks/) - A task management app for organizing and tracking tasks.
 - [Raindrop.io](https://raindrop.io/) - A bookmark manager for organizing and saving links.
 - [Rectangle Pro](https://rectangleapp.com/) - A window management tool for macOS to organize windows efficiently.
-- [Choosy](https://www.choosyosx.com/) - An app for macOS that allows you to choose which browser to open links in.
-- [CopyQ](https://copyq.app/) - A clipboard manager for managing and organizing clipboard history.
+- [Choosy](https://choosy.app/) - An app for macOS that allows you to choose which browser to open links in.
+- [CopyQ](https://hluk.github.io/CopyQ/) - A clipboard manager for managing and organizing clipboard history.
 
 ## Note-Taking
 
@@ -52,7 +52,7 @@ I hope this list gives you some new ideas for your own workflow.
 
 ## AI Assistants
 
-- [ChatGPT](https://chat.openai.com/) - An indispensable AI companion for brainstorming, coding, and debugging.
+- [ChatGPT](https://chatgpt.com/) - An indispensable AI companion for brainstorming, coding, and debugging.
 - [Claude](https://claude.ai/) - A powerful AI assistant for complex reasoning, creativity, and collaborative coding.
 - [Gemini](https://gemini.google.com/) - Google's creative and helpful AI partner for generating ideas and solving problems.
 - [DeepSeek](https://deepseek.com/) - An open-source AI model focused on delivering expert performance in coding and reasoning.
@@ -65,7 +65,6 @@ I hope this list gives you some new ideas for your own workflow.
 
 ## Messaging & Social
 
-- [Whatsapp](https://www.whatsapp.com/) - A popular messaging app for personal and group chats.
 - [Telegram](https://telegram.org/) - A secure messaging app with channels and groups.
 - [Signal](https://signal.org/) - A privacy-focused messaging app with end-to-end encryption.
 
@@ -83,9 +82,9 @@ I hope this list gives you some new ideas for your own workflow.
 
 ## Faith & Well-Being
 
-- [Surah](https://surah.app/) - A Quran app for reading and listening to the Quran.
+- [Surah](https://apps.apple.com/gb/app/surah-al-quran/id1615829761) - A Quran app for reading and listening to the Quran.
 - [Tarteel](https://tarteel.io/) - A Quran app for reading and memorizing the Quran.
-- [Adhkary](https://zeyd.co/adhkary/) - An app for a collection of daily Islamic supplications designed for children.
+- [Adhkary](https://zeyd.co/en/adhkary/) - An app for a collection of daily Islamic supplications designed for children.
 
 ## VSCode Extensions
 
