@@ -5,13 +5,25 @@ export interface Props {
   ariaLabel?: string;
   title?: string;
   disabled?: boolean;
+  target?: string;
 }
 
-const { href, className, ariaLabel, title, disabled = false } = Astro.props;
+const {
+  href,
+  className,
+  ariaLabel,
+  title,
+  disabled = false,
+  target,
+} = Astro.props;
+
+const rel = target === "_blank" ? "noopener noreferrer" : undefined;
 ---
 
 <a
   href={disabled ? "#" : href}
+  target={target}
+  rel={rel}
   tabindex={disabled ? "-1" : "0"}
   class={`group inline-block ${className}`}
   aria-label={ariaLabel}
