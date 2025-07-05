@@ -12,9 +12,13 @@ draft: false
 description: A curated list of the essential software, tools, and services that power my daily workflow as a developer.
 ---
 
+As a developer, the tools I use are crucial to my productivity and the quality of my work. Over the years, I've curated a list of essential software, services, and utilities that I rely on daily. This toolkit is constantly evolving, and I plan to update this list regularly as I discover new and better tools.
+
+I hope this list gives you some new ideas for your own workflow.
+
 ## Developer Tools
 
-- [VSCode](https://code.visualstudio.com/) - A powerful and popular code editor with a vast ecosystem of extensions.
+- [VSCode](https://code.visualstudio.com/) - A powerful and popular code editor with a vast ecosystem of extensions. (List of extensions at the end of the article)
 - [Docker](https://www.docker.com/) - A containerization platform for building, deploying, and managing applications.
 - [TablePlus](https://tableplus.com/) - A modern, native GUI for relational databases.
 - [iTerm2](https://iterm2.com/) - A feature-rich terminal emulator for macOS that improves on the default terminal.
@@ -82,3 +86,26 @@ description: A curated list of the essential software, tools, and services that 
 - [Surah](https://surah.app/) - A Quran app for reading and listening to the Quran.
 - [Tarteel](https://tarteel.io/) - A Quran app for reading and memorizing the Quran.
 - [Adhkary](https://zeyd.co/adhkary/) - An app for a collection of daily Islamic supplications designed for children.
+
+## VSCode Extensions
+
+- [Prettier - Code formatter](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode) - An opinionated code formatter that supports many languages.
+- [Kilo Code AI Agent](https://marketplace.visualstudio.com/items?itemName=kilocode.Kilo-Code) - An open-source AI coding assistant for planning, building, and fixing code.
+- [Code Spell Checker](https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker) - A spell checker for code comments, strings, and plain text.
+- [expand-region](https://marketplace.visualstudio.com/items?itemName=letrieu.expand-region) - Allows for semantic selection expansion, similar to features in Emacs or JetBrains IDEs.
+- [Github Copilot](https://marketplace.visualstudio.com/items?itemName=GitHub.copilot) - An AI-powered code completion tool that suggests code snippets and entire functions.
+- [Github Pull Requests](https://marketplace.visualstudio.com/items?itemName=GitHub.vscode-pull-request-github) - Manage GitHub pull requests directly within VSCode.
+- [Live Share](https://marketplace.visualstudio.com/items?itemName=ms-vsliveshare.vsliveshare) - Enables real-time collaborative coding and sharing sessions.
+- [Night Owl](https://marketplace.visualstudio.com/items?itemName=sdras.night-owl) - A dark theme for VSCode that is easy on the eyes and enhances focus.
+- [Path Intellisense](https://marketplace.visualstudio.com/items?itemName=christian-kohler.path-intellisense) - Autocompletes filenames for faster and more accurate pathing.
+- [Peacock](https://marketplace.visualstudio.com/items?itemName=johnpapa.vscode-peacock) - Subtly changes the color of your workspace, ideal for quickly identifying different projects.
+- [Playwright Test for VSCode](https://marketplace.visualstudio.com/items?itemName=ms-playwright.playwright) - Run and debug Playwright tests directly from the editor.
+- [Pretty TypeScript Errors](https://marketplace.visualstudio.com/items?itemName=yoavbls.pretty-ts-errors) - Improves the readability of TypeScript errors in VSCode.
+- [Quokka.js](https://marketplace.visualstudio.com/items?itemName=WallabyJs.quokka-vscode) - A rapid prototyping playground for JavaScript and TypeScript.
+- [Tailwind CSS IntelliSense](https://marketplace.visualstudio.com/items?itemName=bradlc.vscode-tailwindcss) - An extension that provides autocomplete, syntax highlighting, and linting for Tailwind CSS.
+
+---
+
+## Final Thoughts
+
+This list represents my go-to toolkit at the moment, but it's a living document. I'm always exploring new tools to enhance my workflow and will be sure to keep this post updated with any new additions. I hope you've found some valuable tools to try out!
