@@ -1,6 +1,6 @@
 ---
 import Layout from "@layouts/AboutLayout.astro";
-import * as resumeData from "../../resume/resume.json";
+import * as resumeData from "../../resume.json";
 import format from "date-fns/format/index.js";
 import differenceInMonths from "date-fns/differenceInMonths/index.js";
 
@@ -150,7 +150,6 @@ const displayDuration = (startDate: string, endDate: string) => {
       resumeData.skills.map(skill => (
         <div class="mb-4">
           <h3 class="inline text-xl font-semibold">{skill.name}</h3>
-          <p class="ml-1  inline text-lg">({skill.level})</p>
           <p class="mt-2 font-thin">{skill.keywords.join(", ")}</p>
         </div>
       ))

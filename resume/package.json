@@ -1,10 +1,8 @@
 {
   "name": "my-resume",
-  "module": "resume.json",
-  "type": "module",
   "private": true,
   "scripts": {
-    "build": "resume export ../public/resume.pdf --format pdf --theme actual",
+    "build": "resume export ../public/resume.pdf --format pdf --theme actual --resume ../resume.json",
     "postinstall": "patch-package"
   },
   "dependencies": {
