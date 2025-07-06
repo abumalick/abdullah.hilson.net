@@ -1,7 +1,7 @@
 ---
 import Layout from "@layouts/AboutLayout.astro";
 import LinkButton from "@components/LinkButton.astro";
-import * as resumeData from "../../resume.json";
+import * as resumeData from "../resume.json";
 import format from "date-fns/format/index.js";
 import differenceInMonths from "date-fns/differenceInMonths/index.js";
 
@@ -43,7 +43,7 @@ const displayDuration = (startDate: string, endDate: string) => {
     </p>
 
     <LinkButton
-      href=`${Astro.site}resume.pdf`
+      href={`${Astro.site}resume.pdf`}
       className="mb-4 mt-4"
       target="_blank"
     >
