@@ -33,7 +33,7 @@
       "startDate": "2021-11-01",
       "summary": "Led the frontend and mobile development for three core SAAS products in logistics and e-commerce: 'Shopraha' (automated grocery), 'Rover' (delivery fleet management), and 'Halo' (warehouse management). Drove the architectural vision for mobile applications and co-led the successful implementation of a Turborepo monorepo to unify development across all dashboards.",
       "highlights": [
-        "Led a team of 4 in developing a React Native e-commerce app, setting the foundational architecture and deployment pipelines.",
+        "Led a mobile team of 4 in developing a React Native e-commerce app, establishing the foundational architecture and deployment pipelines.",
         "Mentored a team of 5 developers, conducted rigorous code reviews, and implemented SCRUM methodologies to boost team performance and product quality.",
         "Co-led the Turborepo monorepo initiative, delivering a shared Ant Design component library used by four product dashboards, eliminating ~45% of duplicated UI code in listing pages and accelerating feature delivery.",
         "Improved monorepo dashboards build time by over 70% by migrating from Next.js to Vite and adopting Bun as the package manager, drastically accelerating CI and local feedback loops.",
