@@ -33,7 +33,7 @@
       "startDate": "2021-11-01",
       "summary": "Led the frontend and mobile development for three core SAAS products in logistics and e-commerce: 'Shopraha' (automated grocery), 'Rover' (delivery fleet management), and 'Halo' (warehouse management). Drove the architectural vision for mobile applications and co-led the successful implementation of a Turborepo monorepo to unify development across all dashboards.",
       "highlights": [
-        "Led a mobile team of 4 in developing a React Native e-commerce app, establishing the foundational architecture and deployment pipelines.",
+        "Managed a mobile team of 4 in developing a React Native e-commerce app, establishing the foundational architecture and deployment pipelines.",
         "Mentored a team of 5 developers, conducted rigorous code reviews, and implemented SCRUM methodologies to boost team performance and product quality.",
         "Co-led the Turborepo monorepo initiative, delivering a shared Ant Design component library used by four product dashboards, eliminating ~45% of duplicated UI code in listing pages and accelerating feature delivery.",
         "Improved monorepo dashboards build time by over 70% by migrating from Next.js to Vite and adopting Bun as the package manager, drastically accelerating CI and local feedback loops.",
@@ -125,7 +125,7 @@
       "summary": "As a frontend specialist, I built and optimized responsive user interfaces using React, Redux, and Gatsby.js. My work involved integrating complex features like social logins and video players, significantly improving application performance and user engagement.",
       "highlights": [
         "Built interfaces with React.js, Redux, and Apollo Client",
-        "Optimized app performance using Gatsby.js",
+        "Boosted user experience by cutting load time by 80% (5x) through a strategic migration to Gatsby.js.",
         "Integrated social login and registration, video players, code editors, and logic for code challenges and quizzes",
         "Contributed to a learning platform that scaled to 400,000 users, managing 650,000 learning path completions and 5,000 project submissions.",
         "Mentored 3 frontend team members and newcomers."
