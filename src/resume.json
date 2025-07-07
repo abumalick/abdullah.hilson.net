@@ -149,16 +149,17 @@
       ]
     },
     {
-      "name": "Devpal Solutions",
+      "name": "Independent Freelancer",
       "location": "Remote",
-      "position": "Founder/CTO",
+      "position": "Full-Stack Web & Mobile Developer",
       "startDate": "2015-05-01",
-      "summary": "Founded a web and mobile development consultancy. As CTO, I led the technical strategy for various client projects on a part-time basis, delivering solutions using React, backend frameworks (Rails, Node.js, Django), and mobile stacks like React Native.",
+      "endDate": "2020-07-31",
+      "summary": "Provided freelance web and mobile development services for a variety of clients on a part-time basis. Delivered custom solutions ranging from WordPress websites to complex single-page and mobile applications using modern stacks.",
       "highlights": [
-        "Website development with WordPress",
-        "Frontend app development using React, GatsbyJS, and Next.js",
-        "Backend app development with Ruby on Rails, Node.js, and Django",
-        "Creation of mobile apps using React Native and Ionic"
+        "Developed custom WordPress websites for small businesses.",
+        "Built frontend applications using React, GatsbyJS, and Next.js.",
+        "Engineered backend services with Ruby on Rails, Node.js, and Django.",
+        "Created cross-platform mobile apps with React Native and Ionic."
       ],
       "keywords": [
         "Web Development",
