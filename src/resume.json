@@ -66,7 +66,7 @@
       "endDate": "2021-11-01",
       "summary": "Contributed as a senior engineer within a global talent network, developing robust dashboards with React and TypeScript, and building serverless, RESTful APIs using Python and AWS CDK. Focused on delivering high-quality, tested code for various client projects.",
       "highlights": [
-        "Developed dashboards using React, TypeScript, and GraphQL. Wrote unit tests and integration tests with testing library",
+        "Engineered and maintained robust dashboards using React, TypeScript, and GraphQL, ensuring comprehensive test coverage with both unit tests and integration tests.",
         "Designed and built serverless APIs using Python, AWS Lambda, and CDK with full test coverage",
         "Analyzed requirements and provided expert solutions; offered valuable advice to leaders and designers."
       ],
@@ -116,8 +116,8 @@
       "endDate": "2020-01-01",
       "summary": "Transitioned to a full-stack role, taking ownership of backend development with Python and Django while continuing frontend work. Key contributions include implementing a full-featured subscription and payment system and improving overall backend code quality through refactoring and best practices.",
       "highlights": [
-        "Focused on backend development using Python, Django framework, and GraphQL, including unit tests and integration tests",
-        "Continued work on the frontend with React.js",
+        "Engineered backend systems using Python, Django, and GraphQL, implementing comprehensive unit and integration tests.",
+        "Developed new frontend features using React.js",
         "Implemented a subscription system with recurring payments using PayPal, TAP, and wire payments (backend/frontend)",
         "Enhanced backend code quality through refactoring and best practices",
         "Conducted code reviews and offered guidance to a team of 9 developers."
@@ -134,10 +134,10 @@
       "endDate": "2018-12-31",
       "summary": "As a frontend specialist, I built and optimized user interfaces with responsive design using React, Redux, and Gatsby.js. My work involved integrating complex features like social logins and video players, significantly improving application performance and user engagement.",
       "highlights": [
-        "Built interfaces with React.js, Redux, and Apollo Client",
+        "Developed and optimized user interfaces using React.js, Redux, and Apollo Client, resulting in a more responsive and engaging user experience.",
         "Executed a major performance optimization by migrating to Gatsby.js, cutting load time by 80% and boosting user experience.",
         "Integrated social login and registration, video players, code editors, and logic for code challenges and quizzes",
-        "Contributed to a learning platform that scaled to 400,000 users, managing 650,000 learning path completions and 5,000 project submissions.",
+        "Developed and scaled a learning platform to 400,000 users, which managed 650,000 learning path completions and 5,000 project submissions.",
         "Mentored 3 frontend team members and newcomers."
       ],
       "keywords": [
