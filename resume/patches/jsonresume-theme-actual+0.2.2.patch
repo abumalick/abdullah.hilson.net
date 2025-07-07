@@ -1,5 +1,5 @@
 diff --git a/node_modules/jsonresume-theme-actual/assets/helper.js b/node_modules/jsonresume-theme-actual/assets/helper.js
-index 0157b76..edad48b 100644
+index 0157b76..022e15d 100644
 --- a/node_modules/jsonresume-theme-actual/assets/helper.js
 +++ b/node_modules/jsonresume-theme-actual/assets/helper.js
 @@ -1,7 +1,7 @@
@@ -11,7 +11,7 @@ index 0157b76..edad48b 100644
  const mdToHtml = (string) => string ? md.render(string) : ''
  
  const calcLocation = (location) => {
-@@ -46,10 +46,36 @@ const calcDateRange = (start, end) => {
+@@ -46,10 +46,53 @@ const calcDateRange = (start, end) => {
    } else {
      return null
    }
@@ -24,6 +24,23 @@ index 0157b76..edad48b 100644
    return array.join(' - ')
  }
  
++const calcYearRange = (start, end) => {
++  const startDate = moment(start, 'YYYY-MM-DD').format('YYYY')
++  const endDate = moment(end, 'YYYY-MM-DD').format('YYYY')
++  if (startDate && endDate) {
++    if (startDate === endDate) {
++      return startDate
++    }
++    return `${startDate} - ${endDate}`
++  } else if (startDate) {
++    return `${startDate} - Present`
++  } else if (endDate) {
++    return endDate
++  } else {
++    return null
++  }
++}
++
 +const displayDuration = (startDate, endDate) => {
 +  const start = new Date(startDate);
 +  const end = new Date(endDate);
@@ -48,7 +65,7 @@ index 0157b76..edad48b 100644
  const beautifyDate = (date) => moment(date, 'YYYY-MM-DD').format('MMM YYYY')
  
  const beautifyArray = (separator, array) => array.filter(x => x).join(separator)
-@@ -79,6 +105,19 @@ const beautifyLink = (string) => {
+@@ -79,14 +122,30 @@ const beautifyLink = (string) => {
  
  const validArray = (array) => array !== undefined && array.length > 0
  
@@ -68,7 +85,10 @@ index 0157b76..edad48b 100644
  module.exports = {
    mdToHtml,
    calcLocation,
-@@ -88,5 +127,7 @@ module.exports = {
+   calcDate,
+   calcDateRange,
++  calcYearRange,
+   beautifyDate,
    beautifyArray,
    arrayToPhrase,
    beautifyLink,
@@ -77,18 +97,23 @@ index 0157b76..edad48b 100644
    validArray
  }
 diff --git a/node_modules/jsonresume-theme-actual/assets/pug/education.pug b/node_modules/jsonresume-theme-actual/assets/pug/education.pug
-index 0766ce5..9f84c5a 100644
+index 0766ce5..52b7e7d 100644
 --- a/node_modules/jsonresume-theme-actual/assets/pug/education.pug
 +++ b/node_modules/jsonresume-theme-actual/assets/pug/education.pug
-@@ -4,6 +4,5 @@ if helper.validArray(resume.education)
+@@ -4,6 +4,10 @@ if helper.validArray(resume.education)
      div(class='container')
        each edu in resume.education
          div(class='article margin-container-2 no-break')
 -          div(class='title markdown')!=helper.mdToHtml(helper.beautifyArray(', ', [edu.studyType, edu.area]))
 -          span(class='institution margin-text-2')
 -            a(href=edu.url)=edu.institution
-+          div(class='title markdown')!=helper.mdToHtml('**' + edu.studyType + "'s Degree in " + edu.area + '**')
-+          div(class='institution margin-text-2')=edu.institution
++          div(class='header no-alone-1')
++            div(class='table')
++              span(class='title')=edu.studyType
++              span(class='margin-text-1')=edu.area
++              span(class='institution margin-text-1')=edu.institution
++              if edu.startDate
++                span(class='date')=helper.calcYearRange(edu.startDate, edu.endDate)
 diff --git a/node_modules/jsonresume-theme-actual/assets/pug/links.pug b/node_modules/jsonresume-theme-actual/assets/pug/links.pug
 index dc09c9e..400404c 100644
 --- a/node_modules/jsonresume-theme-actual/assets/pug/links.pug
@@ -106,7 +131,7 @@ index dc09c9e..400404c 100644
 +            span!=helper.getIcon(profile.network) + ' ' + profile.network + ': '
 +            a(href=profile.url)!=helper.beautifyProfileLink(profile.url)
 diff --git a/node_modules/jsonresume-theme-actual/assets/styles.css b/node_modules/jsonresume-theme-actual/assets/styles.css
-index b75e4f1..6dd41b4 100644
+index b75e4f1..29cb68d 100644
 --- a/node_modules/jsonresume-theme-actual/assets/styles.css
 +++ b/node_modules/jsonresume-theme-actual/assets/styles.css
 @@ -72,7 +72,7 @@ li:first-child {
@@ -165,7 +190,7 @@ index b75e4f1..6dd41b4 100644
    white-space: nowrap;
  }
  
-@@ -291,6 +293,10 @@ li:first-child {
+@@ -291,13 +293,17 @@ li:first-child {
  .links ul li {
    font-size: 14px;
  }
@@ -175,7 +200,17 @@ index b75e4f1..6dd41b4 100644
 +}
  
  .education .title {
-   font-size: 15px;
+-  font-size: 15px;
++  font-size: 18px;
++  font-weight: lighter;
++  padding-bottom: 2px;
+ }
+ .education .institution {
+-  font-size: 15px;
+-  font-weight: lighter;
+ }
+ 
+ .awards .header .title {
 @@ -324,13 +330,12 @@ li:first-child {
  }
  .skills .container {

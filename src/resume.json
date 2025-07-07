@@ -3,7 +3,7 @@
   "basics": {
     "name": "Abdullah Hilson",
     "label": "Full-Stack Engineer",
-    "summary": "Experienced Full-Stack Engineer with 10+ years in web and mobile development, specializing in React, TypeScript, and backend frameworks like Node.js and Django. Proven ability to lead teams, ship scalable SaaS products, and improve engineering workflows under tight deadlines.",
+    "summary": "Experienced Full-Stack Engineer with 10+ years in web, mobile, and frontend development, specializing in React, TypeScript, and backend frameworks like Node.js and Django. Proven ability to lead teams, ship scalable SaaS products, and improve engineering workflows under tight deadlines.",
     "email": "abdullah@hilson.net",
     "phone": "+32 497 90 37 95",
     "url": "https://abdullah.hilson.net",
@@ -33,12 +33,12 @@
       "startDate": "2021-11-01",
       "summary": "Led the frontend and mobile development for three core SAAS products in logistics and e-commerce: 'Shopraha' (automated grocery), 'Rover' (delivery fleet management), and 'Halo' (warehouse management). Drove the architectural vision for mobile applications and co-led the successful implementation of a Turborepo monorepo to unify development across all dashboards.",
       "highlights": [
-        "Managed a mobile team of 4 in developing a React Native e-commerce app, establishing the foundational architecture and deployment pipelines.",
+        "Managed a mobile team of 4 in developing a React Native e-commerce app, establishing the foundational architecture and continuous deployment pipelines.",
         "Mentored a team of 5 developers, conducted rigorous code reviews, and implemented SCRUM methodologies to boost team performance and product quality.",
         "Co-led the Turborepo monorepo initiative, delivering a shared Ant Design component library used by four product dashboards, eliminating ~45% of duplicated UI code in listing pages and accelerating feature delivery.",
-        "Improved monorepo dashboards build time by over 70% by migrating from Next.js to Vite and adopting Bun as the package manager, drastically accelerating CI and local feedback loops.",
+        "Improved monorepo dashboards build time by over 70% by migrating from Next.js to Vite and adopting Bun as the package manager, drastically accelerating continuous integration (CI) and local feedback loops.",
         "Led the full lifecycle development of two complex mobile applications for logistics and warehouse management using Capacitor and Tailwind CSS.",
-        "Established and enforced a robust testing culture, implementing full E2E test suites with Playwright and comprehensive integration tests for critical mobile applications.",
+        "Established and enforced a robust testing culture, implementing full E2E testing suites with Playwright and comprehensive integration tests for critical mobile applications.",
         "Spearheaded development of 'Rover', a complete fleet management solution, delivering the driver's mobile app and contributing significantly to the admin dashboard.",
         "Actively partnered with the product manager to streamline features to enhance maintainability, and prioritize high-impact work to accelerate delivery."
       ],
@@ -52,7 +52,8 @@
         "Capacitor",
         "Next.js",
         "Tailwind CSS",
-        "Antd"
+        "Antd",
+        "E2E Testing"
       ]
     },
     {
@@ -63,7 +64,7 @@
       "url": "https://www.andela.com/",
       "startDate": "2020-11-01",
       "endDate": "2021-11-01",
-      "summary": "Contributed as a senior engineer within a global talent network, developing robust dashboards with React and TypeScript, and building serverless APIs using Python and AWS CDK. Focused on delivering high-quality, tested code for various client projects.",
+      "summary": "Contributed as a senior engineer within a global talent network, developing robust dashboards with React and TypeScript, and building serverless, RESTful APIs using Python and AWS CDK. Focused on delivering high-quality, tested code for various client projects.",
       "highlights": [
         "Developed dashboards using React, TypeScript, and GraphQL. Wrote unit tests and integration tests with testing library",
         "Designed and built serverless APIs using Python, AWS Lambda, and CDK with full test coverage",
@@ -76,7 +77,9 @@
         "Python",
         "GraphQL",
         "AWS Lambda",
-        "AWS CDK"
+        "AWS CDK",
+        "RESTful APIs",
+        "Cloud Services"
       ]
     },
     {
@@ -87,14 +90,21 @@
       "url": "https://kenzup.com/",
       "startDate": "2020-08-01",
       "endDate": "2021-06-01",
-      "summary": "As a key mobile engineer, I led a React Native application to its production launch. My role involved resolving critical bugs across the full stack (mobile and Django backend), integrating new features and designs, and mentoring junior developers to enhance team capabilities.",
+      "summary": "As a key mobile engineer, I led a React Native application to its production launch. My role involved intensive debugging to resolve critical bugs across the full stack (mobile and Django backend), integrating new features and designs, and mentoring junior developers to enhance team capabilities.",
       "highlights": [
         "Led the React Native app to a successful production launch, achieving over 5 million downloads and a 4.5-star rating from 35.1k reviews while resolving critical bugs across the full stack.",
         "Integrated complex features and new designs in the mobile app.",
         "Mentored and advised 2 junior developers, enhancing team capabilities.",
         "Developed an internal tool with Express.js"
       ],
-      "keywords": ["React", "React Native", "Django", "Python", "Express.js"]
+      "keywords": [
+        "React",
+        "React Native",
+        "Django",
+        "Python",
+        "Express.js",
+        "Debugging"
+      ]
     },
     {
       "name": "Obytes",
@@ -112,7 +122,7 @@
         "Enhanced backend code quality through refactoring and best practices",
         "Conducted code reviews and offered guidance to a team of 9 developers."
       ],
-      "keywords": ["React", "Django", "Python", "GraphQL"]
+      "keywords": ["React", "Django", "Python", "GraphQL", "SQL"]
     },
     {
       "name": "Obytes",
@@ -122,15 +132,21 @@
       "url": "https://obytes.com/",
       "startDate": "2017-03-01",
       "endDate": "2018-12-31",
-      "summary": "As a frontend specialist, I built and optimized responsive user interfaces using React, Redux, and Gatsby.js. My work involved integrating complex features like social logins and video players, significantly improving application performance and user engagement.",
+      "summary": "As a frontend specialist, I built and optimized user interfaces with responsive design using React, Redux, and Gatsby.js. My work involved integrating complex features like social logins and video players, significantly improving application performance and user engagement.",
       "highlights": [
         "Built interfaces with React.js, Redux, and Apollo Client",
-        "Boosted user experience by cutting load time by 80% through a strategic migration to Gatsby.js.",
+        "Executed a major performance optimization by migrating to Gatsby.js, cutting load time by 80% and boosting user experience.",
         "Integrated social login and registration, video players, code editors, and logic for code challenges and quizzes",
         "Contributed to a learning platform that scaled to 400,000 users, managing 650,000 learning path completions and 5,000 project submissions.",
         "Mentored 3 frontend team members and newcomers."
       ],
-      "keywords": ["React", "Redux", "GraphQL", "Gatsby.js"]
+      "keywords": [
+        "React",
+        "Redux",
+        "GraphQL",
+        "Gatsby.js",
+        "Responsive Design"
+      ]
     },
     {
       "name": "Devpal Solutions",
@@ -145,13 +161,16 @@
         "Creation of mobile apps using React Native and Ionic"
       ],
       "keywords": [
+        "Web Development",
+        "API Development",
         "React",
         "React Native",
         "Ruby on Rails",
         "Django",
         "Ionic",
         "Gatsby.js",
-        "Next.js"
+        "Next.js",
+        "PostgreSQL"
       ]
     }
   ],
@@ -160,7 +179,7 @@
     {
       "institution": "ICC Brussels",
       "area": "Computer Science and Accounting",
-      "studyType": "Bachelor",
+      "studyType": "Bachelor's Degree",
       "startDate": "2006-09-01",
       "endDate": "2011-06-29"
     }
@@ -171,6 +190,9 @@
     {
       "name": "Frontend",
       "keywords": [
+        "Web Development",
+        "Frontend Development",
+        "Responsive Design",
         "React",
         "Next.js",
         "Gatsby.js",
@@ -178,7 +200,17 @@
         "TypeScript",
         "Tailwind CSS",
         "Material UI",
-        "Antd"
+        "Bootstrap",
+        "Antd",
+        "Performance Optimization",
+        "HTML",
+        "CSS",
+        "Babel",
+        "Webpack",
+        "Vite",
+        "Testing Library",
+        "Playwright",
+        "E2E Testing"
       ]
     },
     {
@@ -189,7 +221,10 @@
         "Ruby on Rails",
         "Express.js",
         "GraphQL",
-        "REST"
+        "RESTful APIs",
+        "API Development",
+        "SQL",
+        "PostgreSQL"
       ]
     },
     {
@@ -198,7 +233,16 @@
     },
     {
       "name": "Infra/DevOps",
-      "keywords": ["AWS", "AWS CDK", "Docker", "GitHub Actions", "Vercel"]
+      "keywords": [
+        "Cloud Services",
+        "AWS",
+        "AWS CDK",
+        "Docker",
+        "GitHub Actions",
+        "Vercel",
+        "Continuous Integration",
+        "Continuous Deployment"
+      ]
     }
   ],
   "languages": [
