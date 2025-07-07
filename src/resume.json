@@ -2,8 +2,8 @@
   "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/master/schema.json",
   "basics": {
     "name": "Abdullah Hilson",
-    "label": "Full-Stack Developer",
-    "summary": "Experienced Full-Stack Developer with 10+ years in web and mobile development, specializing in React, TypeScript, and backend frameworks like Node.js and Django. Proven ability to lead teams, ship scalable SaaS products, and improve engineering workflows under tight deadlines.",
+    "label": "Full-Stack Engineer",
+    "summary": "Experienced Full-Stack Engineer with 10+ years in web and mobile development, specializing in React, TypeScript, and backend frameworks like Node.js and Django. Proven ability to lead teams, ship scalable SaaS products, and improve engineering workflows under tight deadlines.",
     "email": "abdullah@hilson.net",
     "phone": "+32 497 90 37 95",
     "url": "https://abdullah.hilson.net",
@@ -33,13 +33,14 @@
       "startDate": "2021-11-01",
       "summary": "Led the frontend and mobile development for three core SAAS products in logistics and e-commerce: 'Shopraha' (automated grocery), 'Rover' (delivery fleet management), and 'Halo' (warehouse management). Drove the architectural vision for mobile applications and co-led the successful implementation of a Turborepo monorepo to unify development across all dashboards.",
       "highlights": [
-        "Co-led the architecture and implementation of a Turborepo monorepo, creating a unified library of reusable components based on Ant Design that served multiple product dashboards.",
+        "Led a team of 4 in developing a React Native e-commerce app, setting the foundational architecture and deployment pipelines.",
+        "Mentored a team of 5 developers, conducted rigorous code reviews, and implemented SCRUM methodologies to boost team performance and product quality.",
+        "Co-led the Turborepo monorepo initiative, delivering a shared Ant Design component library used by four product dashboards, eliminating ~45% of duplicated UI code in listing pages and accelerating feature delivery.",
+        "Improved monorepo dashboards build time by over 70% by migrating from Next.js to Vite and adopting Bun as the package manager, drastically accelerating CI and local feedback loops.",
         "Led the full lifecycle development of two complex mobile applications for logistics and warehouse management using Capacitor and Tailwind CSS.",
         "Established and enforced a robust testing culture, implementing full E2E test suites with Playwright and comprehensive integration tests for critical mobile applications.",
         "Spearheaded development of 'Rover', a complete fleet management solution, delivering the driver's mobile app and contributing significantly to the admin dashboard.",
-        "Actively partnered with the product manager to streamline features to enhance maintainability, and prioritize high-impact work to accelerate delivery.",
-        "Mentored a team of 5 developers, conducted rigorous code reviews, and implemented SCRUM methodologies to boost team performance and product quality.",
-        "Led a team of 4 in developing a React Native e-commerce app, setting the foundational architecture and deployment pipelines."
+        "Actively partnered with the product manager to streamline features to enhance maintainability, and prioritize high-impact work to accelerate delivery."
       ],
       "keywords": [
         "React",
