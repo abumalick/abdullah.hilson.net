@@ -127,6 +127,7 @@
         "Built interfaces with React.js, Redux, and Apollo Client",
         "Optimized app performance using Gatsby.js",
         "Integrated social login and registration, video players, code editors, and logic for code challenges and quizzes",
+        "Contributed to a learning platform that scaled to 400,000 users, managing 650,000 learning path completions and 5,000 project submissions.",
         "Mentored 3 frontend team members and newcomers."
       ],
       "keywords": ["React", "Redux", "GraphQL", "Gatsby.js"]
