@@ -2,7 +2,7 @@
   "name": "my-resume",
   "private": true,
   "scripts": {
-    "build": "resume export ../public/resume.pdf --format pdf --theme actual --resume ../src/resume.json",
+    "build": "resume export ../public/abdullah-hilson-resume.pdf --format pdf --theme actual --resume ../src/resume.json",
     "postinstall": "patch-package"
   },
   "dependencies": {
