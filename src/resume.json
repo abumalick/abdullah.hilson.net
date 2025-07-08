@@ -27,7 +27,6 @@
     {
       "name": "btr.tech",
       "location": "Kuwait/Remote",
-      "description": "Redefining the Grocery Experience.",
       "position": "Frontend Team Lead",
       "url": "https://www.btr.tech/",
       "startDate": "2021-11-01",
@@ -63,7 +62,6 @@
     {
       "name": "Andela",
       "location": "US/Remote",
-      "description": "Building the tech team of the future",
       "position": "Senior Software Engineer",
       "url": "https://www.andela.com/",
       "startDate": "2020-11-01",
@@ -90,7 +88,6 @@
     {
       "name": "Kenz'up",
       "location": "Morocco/Remote",
-      "description": "Your multi-brand application for loyalty and payments",
       "position": "Senior Mobile Engineer",
       "url": "https://kenzup.com/",
       "startDate": "2020-08-01",
@@ -115,7 +112,6 @@
     {
       "name": "Obytes",
       "location": "Emirates/Remote",
-      "description": "A team of passionate developers, designers, and product managers creating responsive web and mobile applications for startups and agencies.",
       "position": "Full-Stack Engineer",
       "url": "https://obytes.com/",
       "startDate": "2019-01-01",
@@ -133,7 +129,6 @@
     {
       "name": "Obytes",
       "location": "Emirates/Remote",
-      "description": "A team of passionate developers, designers, and product managers creating responsive web and mobile applications for startups and agencies.",
       "position": "Frontend Engineer",
       "url": "https://obytes.com/",
       "startDate": "2017-03-01",
