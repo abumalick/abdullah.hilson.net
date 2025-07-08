@@ -34,7 +34,7 @@
       "summary": "Led the frontend and mobile development for three core SAAS products in logistics and e-commerce: 'Shopraha' (automated grocery), 'Rover' (delivery fleet management), and 'Halo' (warehouse management). Drove the architectural vision for mobile applications and co-led the successful implementation of a Turborepo monorepo to unify development across all dashboards.",
       "highlights": [
         "Managed a mobile team of 4 in developing a React Native e-commerce app, establishing the foundational architecture and continuous deployment pipelines.",
-        "Mentored a team of 5 developers, conducted rigorous code reviews, and implemented SCRUM methodologies to boost team performance and product quality.",
+        "Mentored a team of 5 developers, implementing rigorous code reviews and SCRUM methodologies that increased deployment frequency and reduced critical bugs in production.",
         "Co-led the Turborepo monorepo initiative, delivering a shared Ant Design component library used by four product dashboards, eliminating ~45% of duplicated UI code in listing pages and accelerating feature delivery.",
         "Improved monorepo dashboards build time by over 70% by migrating from Next.js to Vite and adopting Bun as the package manager, drastically accelerating continuous integration (CI) and local feedback loops.",
         "Led the full lifecycle development of two complex mobile applications for logistics and warehouse management using Capacitor and Tailwind CSS.",
@@ -90,12 +90,12 @@
       "url": "https://kenzup.com/",
       "startDate": "2020-08-01",
       "endDate": "2021-06-01",
-      "summary": "As a key mobile engineer, I led a React Native application to its production launch. My role involved intensive debugging to resolve critical bugs across the full stack (mobile and Django backend), integrating new features and designs, and mentoring junior developers to enhance team capabilities.",
+      "summary": "Led a React Native application to its production launch as a key mobile engineer. Resolved critical bugs across the full stack (mobile and Django backend) through intensive debugging, integrated new features and designs, and mentored junior developers to enhance team capabilities.",
       "highlights": [
         "Led the React Native app to a successful production launch, achieving over 5 million downloads and a 4.5-star rating from 35.1k reviews while resolving critical bugs across the full stack.",
         "Integrated complex features and new designs in the mobile app.",
-        "Mentored and advised 2 junior developers, enhancing team capabilities.",
-        "Developed an internal tool with Express.js"
+        "Mentored and advised 2 junior developers, elevating their skills to independently deliver complex features and contributing to the app's success.",
+        "Significantly reduced manual testing time by developing an internal Express.js tool for barcode generation, accelerating development and QA cycles."
       ],
       "keywords": [
         "React",
@@ -120,7 +120,7 @@
         "Developed new frontend features using React.js",
         "Implemented a subscription system with recurring payments using PayPal, TAP, and wire payments (backend/frontend)",
         "Enhanced backend code quality through refactoring and best practices",
-        "Conducted code reviews and offered guidance to a team of 9 developers."
+        "Offered guidance to a team of 9 developers through targeted code reviews, which reduced code complexity and significantly improved backend maintainability."
       ],
       "keywords": ["React", "Django", "Python", "GraphQL", "SQL"]
     },
@@ -134,11 +134,11 @@
       "endDate": "2018-12-31",
       "summary": "As a frontend specialist, I built and optimized user interfaces with responsive design using React, Redux, and Gatsby.js. My work involved integrating complex features like social logins and video players, significantly improving application performance and user engagement.",
       "highlights": [
+        "Developed and scaled a learning platform to 400,000 users, which managed 650,000 learning path completions and 5,000 project submissions.",
         "Developed and optimized user interfaces using React.js, Redux, and Apollo Client, resulting in a more responsive and engaging user experience.",
         "Executed a major performance optimization by migrating to Gatsby.js, cutting load time by 80% and boosting user experience.",
         "Integrated social login and registration, video players, code editors, and logic for code challenges and quizzes",
-        "Developed and scaled a learning platform to 400,000 users, which managed 650,000 learning path completions and 5,000 project submissions.",
-        "Mentored 3 frontend team members and newcomers."
+        "Mentored 3 frontend team members and newcomers, fostering a collaborative environment that proved instrumental in scaling the learning platform to 400,000 users and reduced load times by 80%."
       ],
       "keywords": [
         "React",
