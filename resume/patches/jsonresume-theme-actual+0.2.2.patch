@@ -115,7 +115,7 @@ index 0766ce5..52b7e7d 100644
 +              if edu.startDate
 +                span(class='date')=helper.calcYearRange(edu.startDate, edu.endDate)
 diff --git a/node_modules/jsonresume-theme-actual/assets/pug/links.pug b/node_modules/jsonresume-theme-actual/assets/pug/links.pug
-index dc09c9e..400404c 100644
+index dc09c9e..8439426 100644
 --- a/node_modules/jsonresume-theme-actual/assets/pug/links.pug
 +++ b/node_modules/jsonresume-theme-actual/assets/pug/links.pug
 @@ -5,7 +5,9 @@ if helper.validArray(resume.basics.profiles) || resume.basics.url
@@ -123,12 +123,12 @@ index dc09c9e..400404c 100644
          if resume.basics.url
            li(class='article')
 -            a(href=resume.basics.url)!=helper.beautifyLink(resume.basics.url)
-+            span!=helper.getIcon('Website') + ' Personal Website: '
++            span= 'Personal Website: '
 +            a(href=resume.basics.url)!=helper.beautifyProfileLink(resume.basics.url)
          each profile in resume.basics.profiles
            li(class='article margin-text-4')
 -            a(href=profile.url)!=helper.beautifyLink(profile.url)
-+            span!=helper.getIcon(profile.network) + ' ' + profile.network + ': '
++            span= profile.network + ': '
 +            a(href=profile.url)!=helper.beautifyProfileLink(profile.url)
 diff --git a/node_modules/jsonresume-theme-actual/assets/styles.css b/node_modules/jsonresume-theme-actual/assets/styles.css
 index b75e4f1..29cb68d 100644
