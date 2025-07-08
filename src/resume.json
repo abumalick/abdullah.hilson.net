@@ -43,7 +43,8 @@
         "Actively partnered with the product manager to streamline features to enhance maintainability, and prioritize high-impact work to accelerate delivery.",
         "Authored and maintained comprehensive developer documentation, standardizing contribution guidelines and best practices to streamline onboarding and ensure code consistency.",
         "Optimized the 'Shopraha' application by debugging performance bottlenecks, which enabled server downscaling while supporting an increased user load.",
-        "Scaled the 'Shopraha' mobile app to over 100,000 downloads in Kuwait, demonstrating significant user adoption and market success."
+        "Scaled the 'Shopraha' mobile app to over 100,000 downloads in Kuwait, demonstrating significant user adoption and market success.",
+        "Championed team productivity by researching, demonstrating, and integrating cutting-edge development tools and workflows."
       ],
       "keywords": [
         "React",
@@ -56,7 +57,18 @@
         "Next.js",
         "Tailwind CSS",
         "Antd",
-        "E2E Testing"
+        "E2E Testing",
+        "Playwright",
+        "Gemini",
+        "Claude Sonnet",
+        "GitHub Copilot",
+        "Roo Code",
+        "Aider Chat",
+        "Kilo Code",
+        "Turborepo",
+        "Vite",
+        "Bun",
+        "CI/CD"
       ]
     },
     {
