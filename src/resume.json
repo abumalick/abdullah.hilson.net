@@ -36,13 +36,14 @@
         "Managed a mobile team of 4 in developing a React Native e-commerce app, establishing the foundational architecture and continuous deployment pipelines.",
         "Mentored a team of 5 developers, implementing rigorous code reviews and SCRUM methodologies that increased deployment frequency and reduced critical bugs in production.",
         "Co-led the Turborepo monorepo initiative, delivering a shared Ant Design component library used by four product dashboards, eliminating ~45% of duplicated UI code in listing pages and accelerating feature delivery.",
-        "Improved monorepo dashboards build time by over 70% by migrating from Next.js to Vite and adopting Bun as the package manager, drastically accelerating continuous integration (CI) and local feedback loops.",
+        "Reduced build time by over 75% per dashboard in the monorepo (from 3:18 to 45s for one case) by migrating from Next.js to Vite and Bun, which significantly accelerated CI/CD pipelines and developer feedback loops across four applications.",
         "Led the full lifecycle development of two complex mobile applications for logistics and warehouse management using Capacitor and Tailwind CSS.",
         "Established and enforced a robust testing culture, implementing full E2E testing suites with Playwright and comprehensive integration tests for critical mobile applications.",
         "Spearheaded development of 'Rover', a complete fleet management solution, delivering the driver's mobile app and contributing significantly to the admin dashboard.",
         "Actively partnered with the product manager to streamline features to enhance maintainability, and prioritize high-impact work to accelerate delivery.",
         "Authored and maintained comprehensive developer documentation, standardizing contribution guidelines and best practices to streamline onboarding and ensure code consistency.",
-        "Optimized the 'Shopraha' application by debugging performance bottlenecks, which enabled server downscaling while supporting an increased user load."
+        "Optimized the 'Shopraha' application by debugging performance bottlenecks, which enabled server downscaling while supporting an increased user load.",
+        "Scaled the 'Shopraha' mobile app to over 100,000 downloads in Kuwait, demonstrating significant user adoption and market success."
       ],
       "keywords": [
         "React",
@@ -284,6 +285,6 @@
   "meta": {
     "canonical": "https://raw.githubusercontent.com/jsonresume/resume-schema/master/resume.json",
     "version": "v1.0.0",
-    "lastModified": "2025-07-04T19:55:00"
+    "lastModified": "2025-07-08T12:15:00"
   }
 }
