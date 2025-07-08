@@ -32,9 +32,9 @@
       "startDate": "2021-11-01",
       "summary": "Led the frontend and mobile development for three core SAAS products in logistics and e-commerce: 'Shopraha' (automated grocery), 'Rover' (delivery fleet management), and 'Halo' (warehouse management). Drove the architectural vision for mobile applications and co-led the successful implementation of a Turborepo monorepo to unify development across all dashboards.",
       "highlights": [
-        "Boosted productivity by up to 5x on development tasks by driving AI models like Gemini and Claude Sonnet with code agents including GitHub Copilot, Roo Code, Aider Chat, and Kilo Code.",
         "Managed a mobile team of 4 in developing a React Native e-commerce app, establishing the foundational architecture and continuous deployment pipelines.",
         "Mentored a team of 5 developers, implementing rigorous code reviews and SCRUM methodologies that increased deployment frequency and reduced critical bugs in production.",
+        "Boosted productivity by up to 5x on development tasks by driving AI models like Gemini and Claude Sonnet with code agents including GitHub Copilot, Roo Code, Aider Chat, and Kilo Code.",
         "Co-led the Turborepo monorepo initiative, delivering a shared Ant Design component library used by four product dashboards, eliminating ~45% of duplicated UI code in listing pages and accelerating feature delivery.",
         "Reduced build time by over 75% per dashboard in the monorepo (from 3:18 to 45s for one case) by migrating from Next.js to Vite and Bun, which significantly accelerated CI/CD pipelines and developer feedback loops across four applications.",
         "Led the full lifecycle development of two complex mobile applications for logistics and warehouse management using Capacitor and Tailwind CSS.",
