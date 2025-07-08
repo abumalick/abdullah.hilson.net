@@ -40,7 +40,9 @@
         "Led the full lifecycle development of two complex mobile applications for logistics and warehouse management using Capacitor and Tailwind CSS.",
         "Established and enforced a robust testing culture, implementing full E2E testing suites with Playwright and comprehensive integration tests for critical mobile applications.",
         "Spearheaded development of 'Rover', a complete fleet management solution, delivering the driver's mobile app and contributing significantly to the admin dashboard.",
-        "Actively partnered with the product manager to streamline features to enhance maintainability, and prioritize high-impact work to accelerate delivery."
+        "Actively partnered with the product manager to streamline features to enhance maintainability, and prioritize high-impact work to accelerate delivery.",
+        "Authored and maintained comprehensive developer documentation, standardizing contribution guidelines and best practices to streamline onboarding and ensure code consistency.",
+        "Optimized the 'Shopraha' application by debugging performance bottlenecks, which enabled server downscaling while supporting an increased user load."
       ],
       "keywords": [
         "React",
@@ -66,9 +68,10 @@
       "endDate": "2021-11-01",
       "summary": "Contributed as a senior engineer within a global talent network, developing robust dashboards with React and TypeScript, and building serverless, RESTful APIs using Python and AWS CDK. Focused on delivering high-quality, tested code for various client projects.",
       "highlights": [
-        "Engineered and maintained robust dashboards using React, TypeScript, and GraphQL, ensuring comprehensive test coverage with both unit tests and integration tests.",
-        "Designed and built serverless APIs using Python, AWS Lambda, and CDK with full test coverage",
-        "Analyzed requirements and provided expert solutions; offered valuable advice to leaders and designers."
+        "Engineered and maintained robust dashboards with detailed documentation, using React, TypeScript, and GraphQL, ensuring comprehensive test coverage with both unit tests and integration tests.",
+        "Designed and implemented scalable, secure serverless APIs using Python, AWS Lambda, and CDK.",
+        "Analyzed requirements and provided expert solutions; offered valuable advice to leaders and designers.",
+        "Contributed to internal knowledge-sharing by documenting API endpoints, architectural decisions, and setup guides."
       ],
       "keywords": [
         "React",
@@ -95,7 +98,8 @@
         "Led the React Native app to a successful production launch, achieving over 5 million downloads and a 4.5-star rating from 35.1k reviews while resolving critical bugs across the full stack.",
         "Integrated complex features and new designs in the mobile app.",
         "Mentored and advised 2 junior developers, elevating their skills to independently deliver complex features and contributing to the app's success.",
-        "Significantly reduced manual testing time by developing an internal Express.js tool for barcode generation, accelerating development and QA cycles."
+        "Significantly reduced manual testing time by developing an internal Express.js tool for barcode generation, accelerating development and QA cycles.",
+        "Introduced and maintained a knowledge base for the mobile team, documenting complex components, API integrations, and common bug fixes."
       ],
       "keywords": [
         "React",
