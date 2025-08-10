@@ -41,8 +41,8 @@ I hope this list gives you some new ideas for your own workflow.
 
 ## Note-Taking
 
+- [Obsidian](https://obsidian.md/) - A powerful knowledge management and note-taking app with linking and graph view capabilities.
 - [Notion](https://www.notion.so/) - An all-in-one workspace for notes, tasks, and collaboration.
-- [Apple Notes](https://apps.apple.com/us/app/notes/id1110145109) - A simple and effective note-taking app for Apple devices.
 - [Goodnotes](https://goodnotes.com/) - A versatile note-taking app for handwritten notes and PDFs.
 
 ## Document Editing
