@@ -7,6 +7,7 @@
     "start": "astro dev",
     "build": "bun run build:resume && astro build && jampack ./dist",
     "build:resume": "cd resume; bun install; bun run build",
+    "open:resume": "open public/abdullah-hilson-resume.pdf",
     "preview": "astro preview",
     "sync": "astro sync",
     "astro": "astro",
