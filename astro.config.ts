@@ -9,6 +9,9 @@ import { SITE } from "./src/config";
 // https://astro.build/config
 export default defineConfig({
   site: SITE.website,
+  redirects: {
+    "/cv.pdf": "/abdullah-hilson-resume.pdf",
+  },
   integrations: [
     tailwind({
       applyBaseStyles: false,
