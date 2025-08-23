@@ -25,6 +25,7 @@ I hope this list gives you some new ideas for your own workflow.
 
 ## Browsers
 
+- [Firefox](https://www.firefox.com/en-US/) - A fast, privacy-focused web browser with a rich ecosystem of extensions. It has vertical tabs, chatbots integration, multi account containers, pinned tabs, tab groups, and more.
 - [Dia](https://diabrowser.com/) - An AI-powered web browser that lets you chat with your tabs for writing, learning, planning, and shopping.
 - [Arc](https://arc.net/) - An innovative browser with a focus on productivity and organization.
 - [Brave](https://brave.com/) - A privacy-focused browser with a built-in ad-blocking and rewards system.
