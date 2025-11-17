@@ -21,15 +21,17 @@ I hope this list gives you some new ideas for your own workflow.
 - [VSCode](https://code.visualstudio.com/) - A powerful and popular code editor with a vast ecosystem of extensions. (List of extensions at the end of the article)
 - [Docker](https://www.docker.com/) - A containerization platform for building, deploying, and managing applications.
 - [TablePlus](https://tableplus.com/) - A modern, native GUI for relational databases.
-- [iTerm2](https://iterm2.com/) - A feature-rich terminal emulator for macOS that improves on the default terminal.
+- [Ghostty](https://ghostty.org/) - Ghostty is a fast, feature-rich, and cross-platform terminal emulator that uses platform-native UI and GPU acceleration.
+- [starship](https://starship.rs/) - The minimal, blazing-fast, and infinitely customizable prompt for any shell!
 
 ## Browsers
 
 - [Firefox](https://www.firefox.com/en-US/) - A fast, privacy-focused web browser with a rich ecosystem of extensions. It has vertical tabs, chatbots integration, multi account containers, pinned tabs, tab groups, and more.
+- [Comet](https://www.perplexity.ai/comet) - An AI-powered web browser that integrates with Perplexity AI for enhanced search and browsing experience.
+- [Arc search](https://arc.net/search) - A mobile browser focusing on productivity.
 - [Dia](https://diabrowser.com/) - An AI-powered web browser that lets you chat with your tabs for writing, learning, planning, and shopping.
 - [Arc](https://arc.net/) - An innovative browser with a focus on productivity and organization.
 - [Brave](https://brave.com/) - A privacy-focused browser with a built-in ad-blocking and rewards system.
-- [Arc search](https://arc.net/search) - A mobile browser focusing on productivity.
 
 ## Productivity & Utilities
 
@@ -38,7 +40,7 @@ I hope this list gives you some new ideas for your own workflow.
 - [Raindrop.io](https://raindrop.io/) - A bookmark manager for organizing and saving links.
 - [Rectangle Pro](https://rectangleapp.com/) - A window management tool for macOS to organize windows efficiently.
 - [Choosy](https://choosy.app/) - An app for macOS that allows you to choose which browser to open links in.
-- [CopyQ](https://hluk.github.io/CopyQ/) - A clipboard manager for managing and organizing clipboard history.
+- [Maccy](https://maccy.app/) - Clipboard manager for macOS.
 
 ## Note-Taking
 
