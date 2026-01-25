@@ -1,0 +1,58 @@
+---
+import { SITE } from "@config";
+import Breadcrumbs from "@components/Breadcrumbs.astro";
+import Footer from "@components/Footer.astro";
+import Header from "@components/Header.astro";
+import Layout from "@layouts/Layout.astro";
+---
+
+<Layout title={`QRieux Privacy Policy | ${SITE.title}`}>
+  <Header />
+  <Breadcrumbs />
+  <main id="main-content">
+    <section class="prose mb-28 max-w-3xl prose-img:border-0">
+      <h1 class="text-2xl tracking-wider sm:text-3xl">QRieux Privacy Policy</h1>
+
+      <p class="text-sm opacity-70">Effective Date: January 26, 2026</p>
+
+      <h2>Overview</h2>
+      <p>
+        QRieux (<code>net.hilson.qrieux</code>) is a QR code scanner app for
+        Android developed by Emmanuel Hilson. This policy describes how the app
+        handles your data.
+      </p>
+
+      <h2>Data Collection</h2>
+      <p><strong>QRieux does not collect any data.</strong></p>
+      <ul>
+        <li>No personal information is collected</li>
+        <li>No usage analytics or tracking</li>
+        <li>No account creation required</li>
+        <li>No data is stored on external servers</li>
+      </ul>
+
+      <h2>Camera Permission</h2>
+      <p>
+        QRieux requires camera access solely to scan QR codes in real-time.
+        Images from your camera are processed locally on your device and are
+        never stored, transmitted, or shared.
+      </p>
+
+      <h2>Third-Party Services</h2>
+      <p>QRieux does not integrate any third-party services or SDKs that collect user data.</p>
+
+      <h2>Changes to This Policy</h2>
+      <p>
+        Updates to this policy will be posted on this page with a revised
+        effective date.
+      </p>
+
+      <h2>Contact</h2>
+      <p>
+        Questions about this policy? Contact us at{" "}
+        <a href="mailto:contact@hilson.net">contact@hilson.net</a>.
+      </p>
+    </section>
+  </main>
+  <Footer />
+</Layout>
