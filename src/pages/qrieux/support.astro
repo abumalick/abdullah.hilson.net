@@ -1,0 +1,51 @@
+---
+import { SITE } from "@config";
+import Breadcrumbs from "@components/Breadcrumbs.astro";
+import Footer from "@components/Footer.astro";
+import Header from "@components/Header.astro";
+import Layout from "@layouts/Layout.astro";
+---
+
+<Layout title={`QRieux Support | ${SITE.title}`}>
+  <Header />
+  <Breadcrumbs />
+  <main id="main-content">
+    <section class="prose mb-28 max-w-3xl prose-img:border-0">
+      <h1 class="text-2xl tracking-wider sm:text-3xl">QRieux Support</h1>
+
+      <h2>Need Help?</h2>
+      <p>
+        If you have questions, feedback, or need assistance with QRieux, feel
+        free to reach out.
+      </p>
+
+      <button
+        id="contact-btn"
+        class="cursor-pointer rounded bg-skin-accent px-4 py-2 text-skin-inverted hover:opacity-80"
+      >
+        Contact Support
+      </button>
+
+      <p id="contact-info" class="hidden">
+        Email: <a id="email-link" href="#"></a>
+      </p>
+    </section>
+  </main>
+  <Footer />
+</Layout>
+
+<script>
+  const btn = document.getElementById("contact-btn");
+  const info = document.getElementById("contact-info");
+  const link = document.getElementById("email-link") as HTMLAnchorElement;
+
+  btn?.addEventListener("click", () => {
+    const user = "contact";
+    const domain = "hilson.net";
+    const email = `${user}@${domain}`;
+    link.href = `mailto:${email}`;
+    link.textContent = email;
+    info?.classList.remove("hidden");
+    btn.classList.add("hidden");
+  });
+</script>
