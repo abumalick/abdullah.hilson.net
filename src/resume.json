@@ -2,13 +2,13 @@
   "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/master/schema.json",
   "basics": {
     "name": "Abdullah Hilson",
-    "label": "Full-Stack Engineer",
-    "summary": "Experienced Full-Stack Engineer with 10+ years in web, mobile, and frontend development, specializing in React, TypeScript, and backend frameworks like Node.js and Django. Proven ability to lead teams, ship scalable SaaS products, and improve engineering workflows under tight deadlines.",
+    "label": "Vibe Engineering Enabler",
+    "summary": "Vibe Engineering Enabler with 10+ years of full-stack experience (React, TypeScript, Node.js, Django). I build the foundation — project context, coding standards, automated test suites, and agentic workflows — that turns AI coding agents like Claude Code and Codex into reliable production contributors, so teams (including non-engineers) can ship quality software with minimal friction. Background spans leading mobile and web teams, scaling apps to millions of downloads, and rebuilding engineering culture for the post-AI era.",
     "email": "abdullah@hilson.net",
-    "phone": "+32 497 90 37 95",
+    "phone": "+966 57 014 2490",
     "url": "https://abdullah.hilson.net",
     "location": {
-      "countryCode": "BE"
+      "countryCode": "SA"
     },
     "profiles": [
       {
@@ -25,6 +25,35 @@
   },
   "work": [
     {
+      "name": "Kapico",
+      "location": "Kuwait/Remote",
+      "position": "Head of Engineering",
+      "startDate": "2025-11-01",
+      "summary": "Leading engineering at an auto parts distributor operating across multiple Arab markets. Driving the migration to Odoo ERP and establishing a modern, AI-augmented engineering workflow in an ecosystem that traditionally lacks strong developer tooling and automated testing culture.",
+      "highlights": [
+        "Spearheading the company's migration from legacy systems to Odoo, owning end-to-end data migration of business-critical records.",
+        "Introduced a rigorous engineering culture to an Odoo stack by building an E2E testing pipeline with Gherkin/BDD specifications, raising the quality bar in an ecosystem where automated testing is uncommon.",
+        "Built a Claude Code and Codex development environment with curated project context, coding standards, and task playbooks, turning AI coding agents into reliable production-quality contributors.",
+        "Designed isolated, reproducible development workflows so non-technical team members (including the PM, with no coding or command-line background) can use AI coding agents to implement tasks, validate them locally with automated tests, and open PRs for engineering review.",
+        "Shifted engineering from being the implementation bottleneck to acting as the review and architecture gate, multiplying product throughput without sacrificing code quality."
+      ],
+      "keywords": [
+        "Odoo",
+        "ERP",
+        "Python",
+        "Data Migration",
+        "Claude Code",
+        "Codex",
+        "AI Agentic Workflows",
+        "Vibe Engineering",
+        "Gherkin",
+        "BDD",
+        "E2E Testing",
+        "Developer Experience",
+        "Engineering Leadership"
+      ]
+    },
+    {
       "name": "btr.tech",
       "location": "Kuwait/Remote",
       "position": "Frontend Team Lead",
@@ -32,19 +61,13 @@
       "startDate": "2021-11-01",
       "summary": "Led the frontend and mobile development for three core SAAS products in logistics and e-commerce: 'Shopraha' (automated grocery), 'Rover' (delivery fleet management), and 'Halo' (warehouse management). Drove the architectural vision for mobile applications and co-led the successful implementation of a Turborepo monorepo to unify development across all dashboards.",
       "highlights": [
-        "Managed a mobile team of 4 in developing a React Native e-commerce app, establishing the foundational architecture and continuous deployment pipelines.",
-        "Mentored a team of 5 developers, implementing rigorous code reviews and SCRUM methodologies that increased deployment frequency and reduced critical bugs in production.",
-        "Boosted development productivity by up to 5× by leveraging AI models (Gemini, Claude Sonnet) with code agents such as GitHub Copilot, Roo Code, Aider Chat, and Kilo Code.",
-        "Co-led the Turborepo monorepo initiative, delivering a shared Ant Design component library used by four product dashboards, eliminating ~45% of duplicated UI code in listing pages and accelerating feature delivery.",
-        "Reduced build time by over 75% per dashboard in the monorepo (from 3:18 to 45s for one case) by migrating from Next.js to Vite and Bun, which significantly accelerated CI/CD pipelines and developer feedback loops across four applications.",
-        "Led the full lifecycle development of two complex mobile applications for logistics and warehouse management using Capacitor and Tailwind CSS.",
-        "Established and enforced a robust testing culture, implementing full E2E testing suites with Playwright and comprehensive integration tests for critical mobile applications.",
-        "Spearheaded development of 'Rover', a complete fleet management solution, delivering the driver's mobile app and contributing significantly to the admin dashboard.",
-        "Actively partnered with the product manager to streamline features to enhance maintainability, and prioritize high-impact work to accelerate delivery.",
-        "Authored and maintained comprehensive developer documentation, standardizing contribution guidelines and best practices to streamline onboarding and ensure code consistency.",
-        "Optimized the 'Shopraha' application by debugging performance bottlenecks, which enabled server downscaling while supporting an increased user load.",
-        "Scaled the 'Shopraha' mobile app to over 100,000 downloads in Kuwait, demonstrating significant user adoption and market success.",
-        "Championed team productivity by researching, demonstrating, and integrating cutting-edge development tools and workflows."
+        "Led and mentored mobile and web teams of up to 5 developers, establishing SCRUM, rigorous code reviews, and continuous deployment pipelines that increased deployment frequency and reduced production bugs.",
+        "Boosted team development productivity by up to 5× by integrating AI coding agents (GitHub Copilot, Roo Code, Aider Chat, Kilo Code) with Gemini and Claude Sonnet into daily workflows.",
+        "Co-led the Turborepo monorepo initiative, delivering a shared Ant Design component library across four product dashboards (eliminating ~45% of duplicated UI code) and migrating from Next.js to Vite + Bun, cutting build times by over 75% (3:18 → 45s).",
+        "Established a robust testing culture with full E2E suites in Playwright and comprehensive integration tests for critical mobile applications.",
+        "Spearheaded 'Rover', a complete fleet management solution, owning the driver's mobile app (Capacitor + Tailwind) and contributing significantly to the admin dashboard; led a parallel warehouse management mobile app on the same stack.",
+        "Scaled the 'Shopraha' mobile e-commerce app to over 100,000 downloads in Kuwait, then debugged performance bottlenecks that enabled server downscaling while supporting increased user load.",
+        "Authored comprehensive developer documentation and contribution guidelines, standardizing onboarding and accelerating team ramp-up."
       ],
       "keywords": [
         "React",
@@ -202,6 +225,17 @@
   "publications": [],
   "skills": [
     {
+      "name": "AI / Agentic Workflows",
+      "keywords": [
+        "Claude Code",
+        "Codex",
+        "AI Agentic Workflows",
+        "Vibe Engineering",
+        "Prompt Engineering",
+        "Gherkin / BDD"
+      ]
+    },
+    {
       "name": "Frontend",
       "keywords": [
         "Web Development",
@@ -238,7 +272,8 @@
         "RESTful APIs",
         "API Development",
         "SQL",
-        "PostgreSQL"
+        "PostgreSQL",
+        "Odoo"
       ]
     },
     {
@@ -293,6 +328,6 @@
   "meta": {
     "canonical": "https://raw.githubusercontent.com/jsonresume/resume-schema/master/resume.json",
     "version": "v1.0.0",
-    "lastModified": "2025-07-08T12:15:00"
+    "lastModified": "2026-05-13T00:00:00"
   }
 }
