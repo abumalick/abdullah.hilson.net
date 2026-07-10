@@ -85,7 +85,7 @@ Documentation can be read in two formats\_ _markdown_ & _blog post_.
 **Fuzzy Search** - [FuseJS](https://fusejs.io/)
 **Icons** - [Boxicons](https://boxicons.com/) | [Tablers](https://tabler-icons.io/)
 **Code Formatting** - [Prettier](https://prettier.io/)
-**Deployment** - [Cloudflare Pages](https://pages.cloudflare.com/)
+**Deployment** - [Cloudflare Workers (static assets)](https://developers.cloudflare.com/workers/static-assets/) via `bunx wrangler deploy`
 **Illustration in About Page** - [https://freesvgillustration.com](https://freesvgillustration.com/)
 **Linting** - [ESLint](https://eslint.org)
 
