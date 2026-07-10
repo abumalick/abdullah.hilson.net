@@ -11,6 +11,7 @@
   },
   "routes": [
     { "pattern": "abdullah.hilson.net", "custom_domain": true },
-    { "pattern": "hilson.net", "custom_domain": true }
+    { "pattern": "hilson.net", "custom_domain": true },
+    { "pattern": "www.hilson.net", "custom_domain": true }
   ]
 }
